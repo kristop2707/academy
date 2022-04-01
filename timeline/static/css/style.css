@@ -868,580 +868,651 @@ a.open-popup32{
     width: 0;
 }
 .popup1 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+     position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup1_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup1.active {
+    display: block;
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
 }
 .popup2 {
     position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
-
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup2_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup2.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
+
 }
 .popup3 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+      position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup3_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup3.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup4 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+     position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup4_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup4.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup5 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup5_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup5.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup6 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup6_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup6.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup7 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+   position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup7_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup7.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup8 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup8_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup8.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup9 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+   position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup9_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup9.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup10 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+   position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup10_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup10.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup11 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+   position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup11_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup11.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }.popup12 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+   position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup12_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup12.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup13 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup13_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup13.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup14 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+   position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup14_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup14.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup15 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+   position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup15_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup15.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup16 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup16_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup16.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup17 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
+}
+.popup17_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
 }
 
 .popup17.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup18 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup18_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup18.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup19 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup19_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup19.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup20 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup20_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup20.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup21 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup21_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup21.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup22 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup22_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup22.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup23 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup23_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup23.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup24 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup24_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup24.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup25 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup25_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup25.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup26 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup26_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup26.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup27 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup27_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup27.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
-    border-radius: 25px;
+    display: block;
 }
 .popup28 {
-    background: url("../img/paper-003.jpg")  fixed ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
+   position: absolute;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup28_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup28.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
-    border-radius: 25px;
+    display: block;
 }
 .popup29 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup29_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup29.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup30 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup30_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup30.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup31 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup31_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup31.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 .popup32 {
-    background: url("../img/paper-003.jpg")  fixed ;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 50%;
     padding: 25px;
     transition: 0.5s all;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
 }
-
+.popup32_cell{
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+}
 .popup32.active {
     background: #DACCC6 ;
-    transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
     border-radius: 25px;
+    display: block;
 }
 
+.popupall_flex{
+    display: flex;
+}
+.popup_flex{
+    margin-left: auto;
+}
 .popup_header{
     text-align: center;
     font-weight: 700;

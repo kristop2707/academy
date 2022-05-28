@@ -21,6 +21,7 @@
     <orderEntry type="library" name="72c9b3c5c6" level="application" />
     <orderEntry type="library" name="jquery-1.12.4" level="application" />
     <orderEntry type="library" name="js-cookie" level="application" />
+    <orderEntry type="library" name="swiper" level="application" />
   </component>
   <component name="PackageRequirementsSettings">
     <option name="versionSpecifier" value="Strong equality (==x.y.z)" />

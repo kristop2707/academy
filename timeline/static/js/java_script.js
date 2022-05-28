@@ -1,3 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let popupBg = document.querySelector('.popup__bg');
 let popup1 = document.querySelector('.popup1');
 let popup2 = document.querySelector('.popup2');
@@ -1846,6 +1862,8 @@ function viewDiv31(){
 function viewDiv32(){
   document.getElementById("audio32").style.display = "inline-block";
 }
+
+
 /* function speak() {
     let text = document.getElementById('text').value;
     speechSynthesis.speak(new SpeechSynthesisUtterance(text));

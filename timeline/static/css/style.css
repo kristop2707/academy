@@ -54,7 +54,7 @@ body {
 }
 
 .title{
-    height: 115px;
+    height: 130px;
     display: flex;
   align-items: center;
     justify-content: center;
@@ -150,6 +150,57 @@ body {
     font-weight: 700;
 }
 
+.border_right{
+    width: 100%;
+    position: absolute;
+    height: 36vh;
+    left: -0.7em;
+    margin-top: -41vh;
+    border-right: 3px dashed;
+    border-color: #f19271 !important;
+}
+
+.border_right2{
+    width: 100%;
+    position: absolute;
+    height: 75vh;
+    left: 2em;
+    margin-top: -80vh;
+    border-right: 3px solid;
+    border-color: #be9189 !important;
+}
+.arrow_svg{
+    width: 100%;
+    margin-top: -3.3em;
+    height: 100%;
+}
+
+.arrow_svg svg{
+    margin-left: -0.2em;
+    width: 100%;
+}
+
+.arrow_svg2{
+    width: 100%;
+    margin-top: -1.2em;
+    margin-bottom: -1.1em;
+}
+
+.arrow_svg2 svg{
+    margin-left: -0.2em;
+    width: 100%;
+}
+
+.arrow_svg3{
+    width: 100%;
+    margin-top: -2.9em;
+    margin-bottom: 1.15em;
+}
+
+.arrow_svg3 svg{
+    margin-left: -0.2em;
+    width: 100%;
+}
 .open{
     color: #fff;
     text-decoration: none;
@@ -204,7 +255,7 @@ a .year:hover{
     bottom: 0;
     /* фоновый цвет элемента */
     /*background: #B2BEB4;*/
-    background: #5E5E5E;
+    background: #230b04;
     /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
     z-index: 1001;
 }
@@ -225,7 +276,7 @@ a .year:hover{
   position: absolute;
   display: inline-block;
   top: 0;
-  background-color: #EB8491;
+  background-color: #e6dac1;
   border-radius: 100%;
   width:40px;
   height: 40px;
@@ -268,11 +319,11 @@ a .year:hover{
 
 
 body::-webkit-scrollbar{
-    width: 10px;
-    background-color: #333333;
+    width: 7px;
+    background-color: #f8b283;
 }
 body::-webkit-scrollbar-thumb{
-    background: linear-gradient(180deg, #EB8491 0%, #6c6c6c 100%);
+    background: linear-gradient(180deg, #f8b283 0%, #230b04 100%);
     border-radius: 10px;
 }
 .header{
@@ -292,7 +343,7 @@ body::-webkit-scrollbar-thumb{
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 2em!important;
-    color: #e0dfdd;
+    color: #e6dac1;
     overflow: hidden;
 
     background: #e0dfdd;
@@ -312,7 +363,7 @@ p::selection, div::selection{
 .rectangle{
     width: 100%;
     height: 120px;
-    background-color: #e0dfdd;
+    background-color: #e6dac1;
     position: absolute;
 }
 
@@ -1571,6 +1622,7 @@ a.open-popup32{
 }
 .popup27.active {
     background: #DACCC6 ;
+    border-radius: 25px;
     transition: 0.5s all;
     display: block;
 }
@@ -1591,11 +1643,13 @@ a.open-popup32{
 .popup28.active {
     background: #DACCC6 ;
     transition: 0.5s all;
+    border-radius: 25px;
     display: block;
 }
 .popup29 {
     position: absolute;
     padding: 25px;
+    border-radius: 25px;
     transition: 0.5s all;
     margin-top: 2%;
     margin-left: 20%;
@@ -2978,13 +3032,14 @@ a.open-popup32{
     clip-path: circle(50%);
     height: 25px;
     width: 25px;
+    margin-left: 10%;
     z-index: 1;
     transition: all 0.5s;
 }
 .menu_year{
     position: absolute;
     float: right;
-    padding-left: 15%;
+    padding-left: 25%;
     font-size: 30px;
     font-weight: 700;
     transition: all 0.5s;
@@ -3143,11 +3198,7 @@ width: 99%;
     padding-top: 0.4%;
     position: relative;
 }
-svg {
-    position: absolute;
-    top: 0;
-    left: 7%;
-}
+
 
 .close-popup1 {
     position: absolute;
@@ -3877,5 +3928,26 @@ left: 65%;
         left: 60%;
         width: 12em;
         top: -7%;
+    }
+}
+
+
+
+@media(max-width: 1380px){
+    .title{
+        height: 140px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1000px){
+    .black_block_title{
+        height: 100px;
+    }
+}
+
+@media(max-width: 700px){
+    .black_block_title{
+        height: 130px;
     }
 }

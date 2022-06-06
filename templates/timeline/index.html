@@ -10,16 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css">
-
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-
      <script src="https://kit.fontawesome.com/72c9b3c5c6.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
 <link rel="shortcut icon" href="{% static 'img/gerb_middle.png' %}" type="image/x-icon">
 
-    <title>Історія ОНТУ</title>
+    <title>Timeline ОНТУ</title>
 </head>
 <body>
 <div class="preloader">
@@ -28,7 +25,8 @@
     <div class="preloader__item"></div>
   </div>
 </div>
-<section class="header">
+
+<section class="context"><section class="header">
     <div class="rectangle">
      <a href="https://www.onaft.edu.ua/" target="_blank" style="display: inline-block;
     width: 88px;
@@ -36,866 +34,638 @@
     /* padding-left: 10%; */
     left: 5%;"> <img class="logo" src="{% static 'img/gerb_big.png' %}" alt="logo"></a>
         <a href="#" class="text_main"><div class="text_main">TIMELINE ОДЕСЬКОГО НАЦІОНАЛЬНОГО ТЕХНОЛОГІЧНОГО УНІВЕРСИТЕТУ</div></a>
-        <div class="language"><b data-google-lang="en"><a class="language_click">EN</a></b> | <b data-google-lang="uk"><a class="language_click">UK</a></b> </div>
+        <div class="language"><b data-google-lang="en"><a class="language_click">EN</a></b> | <b data-google-lang="uk"><a class="language_click">UK</a></b></div>
 
   </div>
     </div>
 </section>
-<!-- Slider main container -->
- <div class="swiper mySwiper context_bg" style="position: inherit">
-      <div class="swiper-wrapper" style="z-index: 0;">
-          <!--************1**************-->
-        <div class="swiper-slide" style="margin-left: 10px;">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open-popup1"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup1">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup1"> <div class="year">{{el.year}} </div></a><div class="arrow_svg">
+    <div class="context_bg">
+    <div class="line_content">
+     <div class="first_line">
+         <div class="container">
+             <div class="svg_firstarrow">
          <svg width="24" height="27"  fill="none" xmlns="http://www.w3.org/2000/svg" >
-<path d="M1.02579 0.438342L23.464 13.5352L0.902629 26.4188L1.02579 0.438342Z" fill="#fff "></path>
-         </svg></div>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
+<path d="M1.02579 0.438342L23.464 13.5352L0.902629 26.4188L1.02579 0.438342Z" fill="#204725"></path>
+         </svg></div></div>
 
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
+         <!--div class="container"><svg width="87%" class="svg_firstline" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 3.99998L2528.25 3.99998C2532.03 3.99998 2535.79 4.42741 2539.47 5.27411L2560 9.99998" stroke="#204725" stroke-width="7"/>
+</svg>
 
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
+
+    </div></div>
+
+       <div class="first_angle">
+           <div class="container">
+               <div class="svg_firstangle"> <svg viewBox="0 0 41 397" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 393.5V393.5C22.4918 387.611 37 368.472 37 346.67L37 41.6361C37 23.7498 24.9704 8.10002 7.68571 3.50001V3.50001" stroke="url(#paint0_linear_76_15)" stroke-width="7" stroke-linejoin="round"/>
+
+                   <defs>
+<linearGradient id="paint0_linear_76_15" x1="33.349" y1="132.102" x2="33.3483" y2="287.767" gradientUnits="userSpaceOnUse">
+<stop stop-color="#204725"/>
+<stop offset="1" stop-color="#747600"/>
+</linearGradient>
+</defs>
+</svg>
+</div>
+
+
+           </div>
+</div-->
+        <section class="block1">
+            <div class="wrapper">
+            <div class="block1">{% for el in a %}
+               <a href="#" class="open-popup1"> <div class="title">{{ el.title}}</div></a>
+                <a href="#" class="open-popup1"><div class="circle">
+                    <div class="circle_big">
+                        <div class="circle_small"></div>
+                    </div>
+                </div></a>
+               <a href="#" class="open-popup1"> <div class="year">{{el.year}} </div></a>
+                {% endfor %}
+            </div>
+            </div>
+        </section>
+        <div class="block2">
+            <div class="wrapper">{% for el in b %}
+                <a href="#" class="open-popup2"><div class="title">{{ el.title}}</div></a>
+               <a href="#" class="open-popup2"> <div class="circle">
+                    <div class="circle_big">
+                        <div class="circle_small"></div>
+                    </div>
+               </div></a>
+                <a href="#" class="open-popup2"> <div class="year">{{el.year}}</div></a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="block3">
+            <div class="wrapper">{% for el in c %}
+                <a href="#" class="open-popup3"> <div class="title">{{ el.title}}</div></a>
+                <a href="#" class="open-popup3"><div class="circle">
+                    <div class="circle_big">
+                        <div class="circle_small"></div>
+                    </div>
+                </div></a>
+                <a href="#" class="open-popup3"> <div class="year">{{el.year}}</div></a>
+ {% endfor %}
+            </div>
+        </div>
+        <div class="block4">
+            <div class="wrapper">{% for el in d %}
+                <a href="#" class="open-popup4"> <div class="title">{{ el.title}}</div></a>
+               <a href="#" class="open-popup4"> <div class="circle">
+                    <div class="circle_big">
+                        <div class="circle_small"></div>
+                    </div>
+               </div></a>
+                   <a href="#" class="open-popup4"> <div class="year">{{el.year}}</div></a>
+ {% endfor %}
             </div>
         </div>
 
+         <div class="angle"></div>
 
 
-        <!--************2**************-->
-        <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in b %}
-                        <a href="#" class="open-popup2"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup2">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup2"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        </div>
+    </div>
+    <div class="black_line">
+        <div class="black_line">
 
 
-        <!--************3**************-->
-        <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in c %}
-                        <a href="#" class="open-popup3"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup3">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup3"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in e %}
-                        <a href="#" class="open-popup5"> <div class="black_block_title">{{ el.title}}</div></a>
+  <div class="container">
+             <div class="svg_secondarrow"> <svg width="24" height="27"  fill="none" xmlns="http://www.w3.org/2000/svg" >
+<path d="M1.02579 0.438342L23.464 13.5352L0.902629 26.4188L1.02579 0.438342Z" fill="#333333"></path>
+             </svg></div></div>
+<div class="container"><div class="svg_secondline"> <svg width="45%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="0.00396036" y1="1.00001" x2="2559.98" y2="11.1385" stroke="#333333" stroke-width="2" stroke-dasharray="25 25"/>
+</svg>
 
-                            <a href="#" class="open-popup5"> <div class="black_rectangle">
+
+</div></div>
+        <div class="container"><div class="svg_secondangle"><svg viewBox="0 0 87 449" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 446V446C47.4965 446 86 407.496 86 360L86 87C86 39.5035 47.4965 0.999995 0 0.999995V0.999995" stroke="#333333" stroke-width="2" stroke-linejoin="round" stroke-dasharray="20 20"/>
+</svg>
+</div></div>
+        <div class="black_block1" style="left: 50em;">
+            <div class="wrapper">{% for el in e %}
+            <a href="#" class="open-popup5"> <div class="black_block_title">{{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup5"> <div class="black_rectangle">
                   <a href="#" class="open-popup5"> <div class="black_rectangle_small">
                 </div></a>
-                </div></a><div class="arrow_svg2">
-         <svg width="24" height="27"  fill="none" xmlns="http://www.w3.org/2000/svg" >
-<path d="M1.02579 0.438342L23.464 13.5352L0.902629 26.4188L1.02579 0.438342Z" fill="#f19271  "></path>
-         </svg></div>
-                        <a href="#" class="open"> <div class="black_block_year1">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"> </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        </div>
-
-
-        <!--************4**************-->
-        <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in d %}
-                        <a href="#" class="open-popup4"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup4">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup4"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in e %}
-                        <a href="#" class="open"> <div class="black_block_title"></div></a>
-
-
-                        <a href="#" class="open"> <div class="black_block_year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        </div>
-
-
-
-        <!--************5**************-->
-        <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in f %}
-                        <a href="#" class="open-popup9"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup9">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup9"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in j %}
-                        <a href="#" class="open-popup12"> <div class="black_block_title">{{ el.title}}</div></a>
-
-                            <a href="#" class="open-popup12"> <div class="black_rectangle">
-                  <a href="#" class="open"> <div class="black_rectangle_small">
                 </div></a>
-                </div></a>
-                        <a href="#" class="open-popup12"> <div class="black_block_year1">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
+            <a href="#" class="open-popup5"> <div class="black_block_year">
+                {{el.year}}
+            </div></a>
+            </div>{% endfor %}
+        </div>
         </div>
 
+</div>
+        <div class="line_content2">
+     <div class="second_line">
+         <!--div class="container"><div class="svg_thirdline"> <svg width="85.3%" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 8.5L5.05103 7.64359C8.88979 6.71779 12.8247 6.25 16.7735 6.25H2535.38L2561.5 3.5" stroke="#747600" stroke-width="7" stroke-linejoin="round"/>
+</svg>
 
 
-      <!--************6**************-->
-        <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in g %}
-                        <a href="#" class="open-popup8"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup8">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup8"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
+         </div></div></div>
+       <div class="second_angle"><div class="container"><div class="svg_thirdangle"><svg  viewBox="0 0 39 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37 454L36.5141 453.83C16.4435 446.821 3 427.886 3 406.626L3 46.9243C3 27.4161 15.5165 10.1093 34.0435 4.00001V4.00001" stroke="url(#paint0_linear_76_10)" stroke-width="7" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_76_10" x1="6.44819" y1="153.097" x2="6.44908" y2="332.034" gradientUnits="userSpaceOnUse">
+<stop offset="0.00499664" stop-color="#747600"/>
+<stop offset="1" stop-color="#A8702B"/>
+</linearGradient>
+</defs>
+</svg>
 
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        </div>
-
-
-
-        <!--************7**************-->
-        <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in h %}
-                        <a href="#" class="open-popup7"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup7">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup7"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in k %}
-                        <a href="#" class="open-popup11"> <div class="black_block_title">{{ el.title}}</div></a>
-
-                            <a href="#" class="open-popup11"> <div class="black_rectangle">
-                  <a href="#" class="open-popup11"> <div class="black_rectangle_small">
+</div></div--></div>
+        <div class="block1" id="block5">
+            <div class="wrapper">{% for el in i %}
+               <a href="#" class="open-popup6"> <div class="title_line2">{{ el.title}}</div></a>
+                <a href="#" class="open-popup6"><div class="circle">
+                    <div class="circle_big2">
+                        <div class="circle_small"></div>
+                    </div>
                 </div></a>
-                </div></a>
-                        <a href="#" class="open-popup11"> <div class="black_block_year1">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
+               <a href="#" class="open-popup6"> <div class="year">{{el.year}}</div></a>
+            </div>{% endfor %}
         </div>
+        <div class="block2" id="block6">
+            <div class="wrapper">{% for el in h %}
+                <a href="#" class="open-popup7"><div class="title_line2">{{ el.title}}</div></a>
+               <a href="#" class="open-popup7"> <div class="circle">
+                    <div class="circle_big2">
+                        <div class="circle_small"></div>
+                    </div>
+               </div></a>
+                <a href="#" class="open-popup7"> <div class="year">{{el.year}}</div></a>
+            </div>{% endfor %}
+        </div>
+        <div class="block3" id="block7">
+            <div class="wrapper">{% for el in g %}
+                <a href="#" class="open-popup8"> <div class="title_line2">{{ el.title}}</div></a>
+                <a href="#" class="open-popup8"><div class="circle">
+                    <div class="circle_big2">
+                        <div class="circle_small"></div>
+                    </div>
+                </div></a>
+                <a href="#" class="open-popup8"> <div class="year">{{el.year}}</div></a>
+            </div>{% endfor %}
+        </div>
+        <div class="block4" id="block8">
+            <div class="wrapper">{% for el in f %}
+                <a href="#" class="open-popup9"> <div class="title_line2" >{{ el.title}}</div></a>
+               <a href="#" class="open-popup9"> <div class="circle">
+                    <div class="circle_big2">
+                        <div class="circle_small"></div>
+                    </div>
+               </div></a>
+                   <a href="#" class="open-popup9"> <div class="year">{{el.year}}</div></a>
+            </div>{% endfor %}
+        </div>
+        <div class="angle2"></div>
+    </div>
+        <div class="black_line2_content" >
+        <div class="black_line2">
+         <div class="container"><div class="svg_fourthline"><svg width="71%" height="7"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 1.74304L2560 1.74305" stroke="#333333" stroke-width="2" stroke-dasharray="25 25"/>
+</svg>
 
 
-      <!--************8**************-->
-        <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in i %}
-                        <a href="#" class="open-popup6"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup6">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup6"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in l %}
-                        <a href="#" class="open-popup10"> <div class="black_block_title">{{ el.title}}</div></a>
+         </div></div>
+<div class="container"><div class="svg_fourthangle"><svg viewBox="0 0 87 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M87 666V666C39.5035 666 1 627.496 1 580L1 87C1 39.5035 39.5035 0.999987 87 0.999987V0.999987" stroke="#333333" stroke-width="2" stroke-linejoin="round" stroke-dasharray="25 27"/>
+</svg>
 
-                            <a href="#" class="open-popup10"> <div class="black_rectangle">
+
+</div></div>
+<div class="black_block1" id="block9" >
+            <div class="wrapper">{% for el in l %}
+            <a href="#" class="open-popup10"> <div class="black_block_title">
+                {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup10"> <div class="black_rectangle">
                   <a href="#" class="open-popup10"> <div class="black_rectangle_small">
                 </div></a>
                 </div></a>
-                        <a href="#" class="open-popup10"> <div class="black_block_year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
+            <a href="#" class="open-popup10"> <div class="black_block_year">
+                {{el.year}}
+            </div></a>
+            </div>{% endfor %}
+        </div>
+            <div class="black_block1" id="block10" >
+            <div class="wrapper">{% for el in k %}
+            <a href="#" class="open-popup11"> <div class="black_block_title">
+                {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup11"> <div class="black_rectangle">
+                  <a href="#" class="open-popup11"> <div class="black_rectangle_small">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup11"> <div class="black_block_year">
+               {{el.year}}
+            </div></a>
+            </div>{% endfor %}
+        </div>
+            <div class="black_block1" id="block11">
+            <div class="wrapper">{% for el in j %}
+            <a href="#" class="open-popup12"> <div class="black_block_title" >
+               {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup12"> <div class="black_rectangle">
+                  <a href="#" class="open-popup12"> <div class="black_rectangle_small">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup12"> <div class="black_block_year">
+                {{el.year}}
+            </div></a>
+            </div>{% endfor %}
+        </div>
+        </div>
         </div>
 
+         <div class="line_content3">
+     <div class="third_line"><!--div class="container"><div class="svg_fifthline"> <svg width="84.9%" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 4L10.3567 4.6H2537.61L2561 6" stroke="#A8702B" stroke-width="7" stroke-linejoin="round"/>
+</svg>
 
-        <!--************9**************-->
-      <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in m %}
-                        <a href="#" class="open-popup13"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup13">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup13"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
+     </div></div--></div>
+       <!--div class="third_angle"><div class="container"><div class="svg_fifthangle">
+<svg viewBox="0 0 41 665" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 677L9.62412 673.132C26.4183 664.61 37 647.375 37 628.543L37 50.7975C37 31.5544 25.9568 14.0189 8.60242 5.70496L5.04348 3.99998" stroke="url(#paint0_linear_76_16)" stroke-width="7" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_76_16" x1="33.4504" y1="226.983" x2="33.4485" y2="494.593" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A8702B"/>
+<stop offset="1" stop-color="#DF3600"/>
+</linearGradient>
+</defs>
+</svg>
+
+       </div></div>
+</div--><div class="block1" id="block12">
+            <div class="wrapper">{% for el in m %}
+               <a href="#" class="open-popup13"> <div class="title_line2">{{ el.title}}</div></a>
+                <a href="#" class="open-popup13"><div class="circle">
+                    <div class="circle_big3">
+                        <div class="circle_small"></div>
+                    </div>
+                </div></a>
+               <a href="#" class="open-popup13"> <div class="year">{{el.year}}</div></a>
+            </div>{% endfor %}
+        </div>
+        <div class="block2" id="block13">
+            <div class="wrapper">{% for el in n %}
+                <a href="#" class="open-popup14"><div class="title_line2" >{{ el.title}}</div></a>
+               <a href="#" class="open-popup14"> <div class="circle">
+                    <div class="circle_big3">
+                        <div class="circle_small"></div>
+                    </div>
+               </div></a>
+                <a href="#" class="open-popup14"> <div class="year">{{el.year}}</div></a>
+            </div>{% endfor %}
+        </div>
+        <div class="block3" id="block14">
+            <div class="wrapper">{% for el in o %}
+                <a href="#" class="open-popup15"> <div class="title_line2" >{{ el.title}}</div></a>
+                <a href="#" class="open-popup15"><div class="circle">
+                    <div class="circle_big3">
+                        <div class="circle_small"></div>
+                    </div>
+                </div></a>
+                <a href="#" class="open-popup15"> <div class="year">{{el.year}}</div></a>
+            </div>{% endfor %}
+        </div>
+        <div class="block4" id="block15">
+            <div class="wrapper">{% for el in p %}
+                <a href="#" class="open-popup16"> <div class="title_line2" >{{ el.title}}</div></a>
+               <a href="#" class="open-popup16"> <div class="circle">
+                    <div class="circle_big3">
+                        <div class="circle_small"></div>
+                    </div>
+               </div></a>
+                   <a href="#" class="open-popup16"> <div class="year">{{el.year}}</div></a>
+            </div>{% endfor %}
+        </div>
+<div class="angle3"></div>
+         </div>
+<div class="black_line3_content" ><div class="black_line3_line">
+        <div class="black_line2"><div class="container"><div class="svg_sixtharrow">
+      <svg width="24" height="27" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.02579 0.438342L23.464 13.5352L0.902629 26.4188L1.02579 0.438342Z" fill="#204725"></path>
+      </svg></div></div>
+            <!--div class="container"> <div class="svg_sixthline"><svg width="74.1%" height="683"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2560 26V26C2560 12.7452 2549.25 2 2536 2L3.24249e-05 2" stroke="#204725" stroke-width="3"/>
+</svg>
+</div></div>
+            <div class="container"><div class="svg_greenangle"><svg viewBox="0 0 26 891" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 889V889C13.2548 889 24 878.255 24 865L24 26C24 12.7451 13.2548 2 0 2V2" stroke="#204725" stroke-width="3"/>
+</svg>
+ </div></div></div-->
+
+
+<div class="black_block1" id="block16">
+            <div class="wrapper">{% for el in q %}
+            <a href="#" class="open-popup17"> <div class="black_block_title" >
+                {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup17"> <div class="black_rectangle2">
+                  <a href="#" class="open-popup17"> <div class="black_rectangle_small2">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup17"> <div class="black_block_year">
+                {{el.year}}
+            </div></a>
+            </div>{% endfor %}
+        </div>
+            <div class="black_block1" id="block17" >
+            <div class="wrapper">{% for el in r %}
+            <a href="#" class="open-popup18"> <div class="black_block_title">
+                {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup18"> <div class="black_rectangle2">
+                  <a href="#" class="open-popup18"> <div class="black_rectangle_small2">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup18"> <div class="black_block_year">
+                {{el.year}}
+            </div></a>{% endfor %}
             </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in u %}
-                        <a href="#" class="open-popup21"> <div class="black_block_title">{{ el.title}}</div></a>
+        </div>
+            <div class="black_block1" id="block18" >
+            <div class="wrapper">{% for el in s %}
+            <a href="#" class="open-popup19"> <div class="black_block_title" >
+                 {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup19"> <div class="black_rectangle2">
+                  <a href="#" class="open-popup19"> <div class="black_rectangle_small2">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup19"> <div class="black_block_year">
+                 {{el.year}}
+            </div></a>{% endfor %}
+            </div>
+        </div><div class="black_block1" id="block19" >
+            <div class="wrapper">{% for el in t %}
+            <a href="#" class="open-popup20"> <div class="black_block_title" >
+                {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup20"> <div class="black_rectangle2">
+                  <a href="#" class="open-popup20"> <div class="black_rectangle_small2">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup20"> <div class="black_block_year">
+                {{el.year}}
+            </div></a>{% endfor %}
+            </div>
+        </div>
+        </div>
+        </div>
+<div class="angle4"></div>
+</div>
 
-                            <a href="#" class="open-popup21"> <div class="black_rectangle">
+        <div class="black_line4_content" >
+        <div class="black_line2">
+
+         <div class="container"><div class="svg_seventhline"><svg width="75%" height="7"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="0.00396036" y1="1.00001" x2="2560" y2="1.00001" stroke="#333333" stroke-width="2" stroke-dasharray="25 25"></line>
+</svg></div></div>
+
+        <div class="container"><div class="svg_seventhangle">
+<svg  viewBox="0 0 48 1102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 1101V1101C25.9574 1101 47 1079.96 47 1054L47 48C47 22.0426 25.9574 1.00001 0 1.00001V1.00001" stroke="#333333" stroke-width="2" stroke-dasharray="35 35"/>
+</svg>
+</div></div>
+<div class="black_block1" id="block20">
+            <div class="wrapper">{% for el in u %}
+            <a href="#" class="open-popup21"> <div class="black_block_title">
+                {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup21"> <div class="black_rectangle">
                   <a href="#" class="open-popup21"> <div class="black_rectangle_small">
                 </div></a>
                 </div></a>
-                        <a href="#" class="open-popup21"> <div class="black_block_year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
+            <a href="#" class="open-popup21"> <div class="black_block_year">
+                {{el.year}}
+            </div></a>{% endfor %}
             </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in a %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-      </div>
-
-       <!--************10**************-->
-      <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in n %}
-                        <a href="#" class="open-popup14"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup14">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup14"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in v %}
-                        <a href="#" class="open-popup22"> <div class="black_block_title">{{ el.title}}</div></a>
-
-                            <a href="#" class="open-popup22"> <div class="black_rectangle">
+        </div>
+            <div class="black_block1" id="block21">
+            <div class="wrapper">{% for el in v %}
+            <a href="#" class="open-popup22"> <div class="black_block_title">
+               {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup22"> <div class="black_rectangle">
                   <a href="#" class="open-popup22"> <div class="black_rectangle_small">
                 </div></a>
                 </div></a>
-                        <a href="#" class="open-popup22"> <div class="black_block_year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in q %}
-                        <a href="#" class="open-popup17"> <div class="black_block_title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup17">
- <div class="black_rectangle2">
-                  <a href="#" class="open-popup17"> <div class="black_rectangle_small2">
-                </div></a>
-                </div>
-                        </a>
-                        <a href="#" class="open-popup17"> <div class="black_block_year2">{{ el.year}}</div></a><div class="arrow_svg3">
-         <svg width="24" height="27"  fill="none" xmlns="http://www.w3.org/2000/svg" >
-<path d="M1.02579 0.438342L23.464 13.5352L0.902629 26.4188L1.02579 0.438342Z" fill="#be9189  "></path>
-         </svg></div>
-                        {% endfor %}
-                     </div>
-                 </div>
+            <a href="#" class="open-popup22"> <div class="black_block_year">
+                 {{el.year}}
+            </div></a>{% endfor %}
             </div>
         </div>
-
-
-
-      <!--************11**************-->
-      <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in o %}
-                        <a href="#" class="open-popup15"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup15">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup15"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in w %}
-                        <a href="#" class="open-popup23"> <div class="black_block_title">{{ el.title}}</div></a>
-
-                            <a href="#" class="open-popup23"> <div class="black_rectangle">
+            <div class="black_block1" id="block22">
+            <div class="wrapper">{% for el in w %}
+            <a href="#" class="open-popup23"> <div class="black_block_title">
+                {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup23"> <div class="black_rectangle">
                   <a href="#" class="open-popup23"> <div class="black_rectangle_small">
                 </div></a>
                 </div></a>
-                        <a href="#" class="open-popup23"> <div class="black_block_year3">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
+            <a href="#" class="open-popup23"> <div class="black_block_year">
+                  {{el.year}}
+            </div></a>{% endfor %}
             </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in r %}
-                        <a href="#" class="open-popup18"> <div class="black_block_title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup18">
- <div class="black_rectangle2">
-                  <a href="#" class="open-popup18"> <div class="black_rectangle_small2">
-                </div></a>
-                </div>
-                        </a>
-                        <a href="#" class="open-popup18"> <div class="black_block_year2">{{ el.year}}</div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-      </div>
-
-
-      <!--************12**************-->
-      <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in p %}
-                        <a href="#" class="open-popup16"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup16">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup16"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in x %}
-                        <a href="#" class="open-popup24"> <div class="black_block_title">{{ el.title}}</div></a>
-
-                            <a href="#" class="open-popup24"> <div class="black_rectangle">
+        </div>
+        </div>
+             <div class="black_block1" id="block23" >
+            <div class="wrapper">{% for el in x %}
+            <a href="#" class="open-popup24"> <div class="black_block_title">
+               {{ el.title}}
+            </div></a>
+                <a href="#" class="open-popup24"> <div class="black_rectangle">
                   <a href="#" class="open-popup24"> <div class="black_rectangle_small">
                 </div></a>
                 </div></a>
-                        <a href="#" class="open-popup24"> <div class="black_block_year3">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
+            <a href="#" class="open-popup24"> <div class="black_block_year">
+                 {{el.year}}
+            </div></a>{% endfor %}
             </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in s %}
-                        <a href="#" class="open-popup19"> <div class="black_block_title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup19">
- <div class="black_rectangle2">
-                  <a href="#" class="open-popup19"> <div class="black_rectangle_small2">
-                </div></a>
-                </div>
-                        </a>
-                        <a href="#" class="open-popup19"> <div class="black_block_year2">{{ el.year}}</div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-      </div>
+        </div>
+        </div>
 
+        <div class="line_content4">
+     <div class="third_line2">
+<div class="black_line2"><div class="container"><div class="svg_lastangle"><svg viewBox="0 0 48 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M48 500V500C22.0426 500 1 478.957 1 453L1 -1.49012e-05" stroke="#333333" stroke-width="2" stroke-dasharray="25 25"/>
+</svg></div></div></div>
 
-      <!--************13**************-->
-      <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in z %}
-                        <a href="#" class="open-popup28"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup28">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup28"> <div class="year2">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in gh %}
-                        <a href="#" class="open-popup32"> <div class="black_block_title">{{ el.title}}</div></a>
-
-                            <a href="#" class="open-popup32"> <div class="black_rectangle">
-                  <a href="#" class="open-popup32"> <div class="black_rectangle_small">
-                </div></a>
-                </div></a>
-                        <a href="#" class="open-popup32"> <div class="black_block_year3">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in t %}
-                        <a href="#" class="open-popup20"> <div class="black_block_title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup20">
- <div class="black_rectangle2">
-                  <a href="#" class="open-popup20"> <div class="black_rectangle_small2">
-                </div></a>
-                </div>
-                        </a>
-                        <a href="#" class="open-popup20"> <div class="black_block_year2">{{ el.year}}</div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-      </div>
-
-
-      <!--************14**************-->
-      <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in ab %}
-                        <a href="#" class="open"> <div class="title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> </a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in lm %}
-                        <a href="#" class="open-popup31"> <div class="black_block_title">{{ el.title}}</div></a>
-
-                            <a href="#" class="open-popup31"> <div class="black_rectangle">
-                  <a href="#" class="open-popup27"> <div class="black_rectangle_small">
-                </div></a>
-                </div></a>
-                        <a href="#" class="open-popup31"> <div class="black_block_year">{{el.year}} </div></a><!--div class="container"><div class="svg_secondline"><svg width="82" height="666" viewBox="0 0 82 666" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 665V665C44.7351 665 81 628.735 81 584L81 0" stroke="#f19271" stroke-width="7" stroke-linejoin="round" stroke-dasharray="10 10"/>
+       <!--div class="container">  <div class="svg_eightline">
+<svg width="87.5%" height="12"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8H2538.14C2542.35 8 2546.54 7.46843 2550.62 6.41789L2560 4" stroke="#DF3600" stroke-width="7" stroke-linejoin="round"/>
 </svg>
+</div></div>
+<svg width="3" height="96" viewBox="0 0 3 96" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute;margin-top: -0%;margin-left: -38.3%">
+<line x1="1.5" y1="50.0425" x2="1.5" y2="0.957413" stroke="#DF3600" stroke-width="3"/>
+</svg>
+<div-- class="container">  <div class="svg_ninthangle">
+<svg viewBox="0 0 41 879" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M39 876L26.5108 867.78C12.4591 858.531 4 842.837 4 826.014L4 50.6553C4 33.3701 12.9277 17.311 27.6089 8.18751L35.9565 3.00002" stroke="url(#paint0_linear_231_2)" stroke-width="7" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_231_2" x1="7.54961" y1="292.249" x2="7.55287" y2="639.386" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DF3600"/>
+<stop offset="1" stop-color="#C92C16"/>
+</linearGradient>
+</defs>
+</svg>
+
 </div></div-->
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in cd %}
-                        <a href="#" class="open-popup30"> <div class="black_block_title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup30">
- <div class="black_rectangle2">
-                  <a href="#" class="open-popup30"> <div class="black_rectangle_small2">
-                </div></a>
-                </div>
-                        </a>
-                        <a href="#" class="open-popup30"> <div class="black_block_year2">{{ el.year}}</div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-      </div>
-
-
-      <!--************15**************-->
-      <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in cn %}
-                        <a href="#" class="open-popup26"> <div class="title"></div></a>
-                        <a href="#" class="open-popup26">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup26"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in ab %}
-                        <a href="#" class="open-popup27"> <div class="black_block_title">{{ el.title}}</div></a>
-
-                           <a href="#" class="open-popup27"> <div class="black_rectangle">
-                  <a href="#" class="open-popup27"> <div class="black_rectangle_small">
-                </div></a>
-                </div></a>
-                        <a href="#" class="open-popup27"> <div class="black_block_year">{{ el.year}}</div></a><div class="border_right"></div>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in ef %}
-                        <a href="#" class="open-popup29"> <div class="black_block_title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup29">
- <div class="black_rectangle2">
-                  <a href="#" class="open-popup29"> <div class="black_rectangle_small2">
-                </div></a>
-                </div>
-                        </a>
-                        <a href="#" class="open-popup29"> <div class="black_block_year2">{{ el.year}}</div></a><div class="border_right2"></div>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-      </div>
-
-
-      <!--************16**************-->
-      <div class="swiper-slide">
-            <div class="ontu_block">
-                <div class="wrapper">
-                    <div class="sds">{% for el in y %}
-                        <a href="#" class="open-popup25"> <div class="title">{{ el.title}}</div></a>
-                        <a href="#" class="open-popup25">
-                        <div class="ontu_line"></div>
-                            <div class="circle">
-                                <div class="circle_big">
-                                    <div class="circle_small"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="open-popup25"> <div class="year">{{el.year}} </div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-            <div class="holod_block">
-                <div class="wr">
-                    <div class="sds">{% for el in lm %}
-                        <a href="#" class="open"> <div class="black_block_title"></div></a>
-
-                            <a href="#" class="open"> </a>
-                        <a href="#" class="open"> <div class="black_block_year"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-        <div class="first_block">
-                <div class="wr">
-                    <div class="sds">{% for el in cd %}
-                        <a href="#" class="open"> <div class="black_block_title"></div></a>
-                        <a href="#" class="open">
-
-                        </a>
-                        <a href="#" class="open"> <div class="black_block_year2"></div></a>
-                        {% endfor %}
-                     </div>
-                 </div>
-            </div>
-      </div>
-
-      </div>
-   <div class="swiper-button-prev" style="z-index: 0;color: white;"></div>
-  <div class="swiper-button-next" style="z-index: 0;color: white;"></div>
 
     </div>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <div class="block2" id="block24" >
+            <div class="wrapper">{% for el in cn %}
+                <a href="#" class="open-popup26"><div class="title_line2" ></div></a>
+               <a href="#" class="open-popup26"> <div class="circle">
+                    <div class="circle_big4">
+                        <div class="circle_small"></div>
+                    </div>
+               </div></a>
+                <a href="#" class="open-popup26"> <div class="year">{{ el.year }}</div></a>
+            </div>{% endfor %}
+        </div>
+        <div class="block3" id="block25" >
+            <div class="wrapper">{% for el in ab %}
+                <a href="#" class="open-popup27"> <div class="title_line2" style="margin-bottom: 24%"></div></a>
+                <a href="#" class="open-popup27"><div class="circle">
+                    <div class="circle_big4">
+                        <div class="circle_small"></div>
+                    </div>
+                </div></a>
+                <a href="#" class="open-popup27"> <div class="year" style="font-weight: 400; font-size: 16px; padding-top:15%;z-index: 1000">{{ el.title }}</div></a>
+            </div>{% endfor %}
+        </div>
+        <div class="block4" id="block26" >
+            <div class="wrapper">{% for el in z %}
+                <a href="#" class="open-popup28"> <div class="title_line2" >{{ el.title }}</div></a>
+               <a href="#" class="open-popup28"> <div class="circle">
+                    <div class="circle_big4">
+                        <div class="circle_small"></div>
+                    </div>
+               </div></a>
+                   <a href="#" class="open-popup28"> <div class="year">{{ el.year }}</div></a>
+            </div>{% endfor %}
+        </div>
+            <div class="angle6"></div>
+             </div>
+<div class="black_line5_content" >
+<div class="black_line5">
+<!--div class="container"><div class="svg_greenline">
+<svg width="48%" height="10"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2560 26V26C2560 12.7452 2549.25 2 2536 2L3.24249e-05 2" stroke="#204725" stroke-width="3"/>
+</svg></div></div--></div>
+<div class="black_block1" id="block27">
+            <div class="wrapper">{% for el in ef %}
+                <a href="#" class="open-popup29"> <div class="black_block_year" style="padding-bottom: 25%">
+                {{ el.year }}
+            </div></a>
+            <a href="#" class="open-popup29"> <div class="black_block_title" >
+                 {{ el.title }}
+            </div></a>
+                <a href="#" class="open-popup29"> <div class="black_rectangle2">
+                  <a href="#" class="open-popup29"> <div class="black_rectangle_small2">
+                </div></a>
+                </div></a>
+{% endfor %}
+            </div>
+        </div>
+            <div class="black_block1" id="block28" >
+            <div class="wrapper">{% for el in cd %}
+            <a href="#" class="open-popup30"> <div class="black_block_title" >
+                {{ el.title }}
+            </div></a>
+                <a href="#" class="open-popup30"> <div class="black_rectangle2">
+                  <a href="#" class="open-popup30"> <div class="black_rectangle_small2">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup30"> <div class="black_block_year">
+                {{ el.year }}
+            </div></a>{% endfor %}
+            </div>
+        </div>
 
-    <!-- Initialize Swiper -->
+        </div>
 
-<script>
-
-    const swiper = new Swiper('.mySwiper', {
-    // Default parameters
-    slidesPerView: 4,
-    spaceBetween: 30,
-        effect: 'slide',
-        autoplay: {
-          delay: 3500,
-          disableOnInteraction: false,
-        },
-         pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-            navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-  // Responsive breakpoints
-  breakpoints: {
-    // when window width is >= 320px
-    280: {
-      slidesPerView: 1,
-      spaceBetween: 10
-    },
-    // when window width is >= 480px
-    450: {
-      slidesPerView: 2,
-      spaceBetween: 20
-    },
-      650: {
-      slidesPerView: 3,
-      spaceBetween: 30
-    },
-    // when window width is >= 640px
-    1000: {
-      slidesPerView: 4,
-      spaceBetween: 30
-    }
-  }
-
-
-});
+<div class="black_line6_content" >
+        <div class="black_line2"><div class="container"><div class="svg_lastline"><svg width="58%" height="7"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="0.00396036" y1="1.00001" x2="2560" y2="1.00001" stroke="#333333" stroke-width="2" stroke-dasharray="25 25"></line>
+        </svg></div></div></div>
 
 
 
-    </script>
-  <!-- If we need navigation buttons -->
+<div class="black_block1" style="left: 40em;
+    margin-top: 1.8em;">
+            <div class="wrapper">{% for el in lm %}
+            <a href="#" class="open-popup31"> <div class="black_block_title">
+                {{ el.title }}
+            </div></a>
+                <a href="#" class="open-popup31"> <div class="black_rectangle">
+                  <a href="#" class="open-popup31"> <div class="black_rectangle_small">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup31"> <div class="black_block_year">
+                 {{ el.year }}
+            </div></a>{% endfor %}
+            </div>
+        </div>
+            <div class="black_block1" style="left: 80em;
+    margin-top: 1.8em;">
+            <div class="wrapper">{% for el in gh %}
+            <a href="#" class="open-popup32"> <div class="black_block_title">
+                {{ el.title }}
+            </div></a>
+                <a href="#" class="open-popup32"> <div class="black_rectangle">
+                  <a href="#" class="open-popup32"> <div class="black_rectangle_small">
+                </div></a>
+                </div></a>
+            <a href="#" class="open-popup32"> <div class="black_block_year">
+                 {{ el.year }}
+            </div></a>{% endfor %}
+            </div>
+        </div>
 
+        </div>
 
-  <!-- If we need scrollbar -->
+ <div class="line_content5">
+     <div class="third_line4">
 
+       <!--div class="container">  <div class="svg_stline">
+<svg width="40%" height="12"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8H2538.14C2542.35 8 2546.54 7.46843 2550.62 6.41789L2560 4" stroke="#C92C16" stroke-width="7" stroke-linejoin="round"/>
+</svg>
+</div></div-->
+
+<div class="container"><div class="svg_eightarrow"><svg width="24" height="27"  fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.02579 0.438342L23.464 13.5352L0.902629 26.4188L1.02579 0.438342Z" fill="#C92C16"></path>
+</svg>
+         </div></div>
+
+    </div>
+     <div class="block1" id="block29">
+            <div class="wrapper">{% for el in y %}
+               <a href="#" class="open-popup25"> <div class="title_line2">{{ el.title }}</div></a>
+                <a href="#" class="open-popup25"><div class="circle">
+                    <div class="circle_big_single">
+                        <div class="circle_small"></div>
+                    </div>
+                </div></a>
+               <a href="#" class="open-popup25"> <div class="year">{{ el.year }}</div></a>
+            </div>{% endfor %}
+        </div>
+             </div>
 </div>
-
+    </div>
 
     <section class="footer">
     <div class="rectangle_footer">
@@ -915,7 +685,7 @@
         </div>
 
         <div class="column3">
-        <div class="language_footer" style="padding-bottom: 35%"><b data-google-lang="en"><a class="language_click">EN</a></b> | <b data-google-lang="uk"><a class="language_click">UK</a></b></div>
+        <div class="language_footer" style="padding-bottom: 35%"><b data-google-lang="en"><a class="language_click">EN</a></b> | <b data-google-lang="uk"><a class="language_click">UK</a></b> </div>
         <div class="media">
             <a href="https://www.facebook.com/onaft" class="facebook" target="_blank"><i class="fab fa-facebook" style="font-size: 30px"></i></a>
             <a href="https://www.youtube.com/user/ONAFT" class="youtube" target="_blank"><i class="fab fa-youtube" style="font-size: 30px"></i></a>

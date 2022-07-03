@@ -15,8 +15,8 @@ class Title(models.Model):
 
 class Text(models.Model):
     text = models.TextField()
-    photo1 = models.ImageField(upload_to='img')
-    photo2 = models.ImageField(upload_to='img')
+    photo1 = models.ImageField(upload_to='img/')
+    photo2 = models.ImageField(upload_to='img/')
 
     def __str__(self):
         return self.text

@@ -522,7 +522,7 @@ font-weight: 700;
 .angle4{
     width: 3px;
     margin-left: auto;
-    height: 59.8em;
+    height: 83em;
     margin-right: 6%;
     background: #fff;
     border-top-right-radius: 30px;
@@ -1517,6 +1517,7 @@ a.open-popup32{
 }
 .popup_content{
     padding: 10px 20px;
+    text-align: justify;
 }
 .popup1 input:focus + .label__text {
     color: #4B4228;
@@ -3296,17 +3297,17 @@ svg {
 }
 .svg_seventhangle svg{
     margin-top: 4.6em;
-    height: 61.3em;
+    height: 39.65em;
     left: 90%;
 }
 .svg_lastline svg{
     margin-top: 3.5em;
-    left: 20%;
+    left: 15%;
 }
 .svg_lastangle svg{
     margin-top: 3.3em;
-    height: 39.4em;
-    left: 11%;
+    height: 17.5em;
+    left: 9%;
 
 }
 .svg_lastangle2 svg{
@@ -3357,13 +3358,13 @@ svg {
     position: absolute;
     width: 100%;
     height: 0%;
-    top: 150em;
+    top: 173em;
 }
 .black_line6_content{
     position: absolute;
     width: 100%;
     height: 0%;
-    top: 170em;
+    top: 148em;
 }
 
     #block5{
@@ -3411,14 +3412,16 @@ svg {
         margin-top: -1.2em;
     }
     #block17{
-        left: 30%;
+        left: 37%;
         margin-top: -1.2em;
     }
     #block18{
-        left: 50%;
+        left: 65%;
     }
     #block19{
-        left: 68%;
+       left: 74%;
+    top: -2.2em;
+    width: 10em;
     }
     #block20{
         left: 5%;
@@ -3437,16 +3440,75 @@ svg {
         top: 1.5em;
     }
     #block24{
-        left: -1%;
+        left: 8%;
         top: -0.15em;
+        width: 5em;
     }
     #block25{
-       left: 15%;
-       top: -0.2em;
+    width: 5em;
+    left: 20%;
+    top: -0.2em;
+    }
+    #block37{
+
+    width: 5em;
+    left: 35%;
+    top: -0.2em;
+    }
+    #block38{
+left: 50%;
+    width: 5em;
+    top: -0.2em;
+    }
+    #block39{
+left: 79%;
+    top: -0.2em;
+    width: 5em;
     }
     #block26{
-        left: 60%;
-        top: -3.8em;
+     left: 57%;
+    top: -5em;
+        width: 13em;
+    }
+    #block19::before{
+        position: absolute;
+    content: " ";
+    height: 10em;
+    left: 100%;
+    top: 0%;
+    transform: translate(-0%, -110%);
+    width: 2px;
+    background-color: #e4abb2;
+    }
+    #block34::before{
+        position: absolute;
+    content: " ";
+    height: 12em;
+    left: 100%;
+    top: 0%;
+    transform: translate(-0%, -110%);
+    width: 2px;
+    background-color: #e4abb2;
+    }
+    #block35::before{
+        position: absolute;
+    content: " ";
+    height: 12em;
+    left: 100%;
+    top: 0%;
+    transform: translate(-0%, -110%);
+    width: 2px;
+    background-color: #e4abb2;
+    }
+    #block36::before{
+        position: absolute;
+    content: " ";
+    height: 12em;
+    left: 100%;
+    top: 0%;
+    transform: translate(-0%, -110%);
+    width: 2px;
+    background-color: #e4abb2;
     }
     #block27{
        left: 38%;
@@ -3460,16 +3522,18 @@ svg {
     }
     #block36{
     width: 10em;
-        left: 35%;
+        left: 15%;
     top: 0.2em;
     }
      #block34{
-        left: 45%;
-        margin-top: 2.3em;
+        left: 30%;
+         width: 10em;
+        margin-top: 1.4em;
      }
      #block35{
-        left: 65%;
-        margin-top: 2.3em;
+       left: 45%;
+         width: 10em;
+        margin-top: 1.4em;
      }
 
 
@@ -3594,8 +3658,7 @@ svg {
     width: 12em;
 }
 #block12{
-    top: -3.5em;
-    width: 13em;
+    top: -2.5em;
     left: -3%;
 }
 #block13 {
@@ -3617,7 +3680,7 @@ svg {
     top: -2em;
 }
 #block19 {
-    top: -2em;
+    top: -0.5em;
 }
 #block20 {
     top: 0.9em;
@@ -3632,8 +3695,7 @@ svg {
     top: 1.9em;
 }
 #block24 {
-    left: -5%;
-    top: -0.3em;
+    left: 5%;
 }
 
 #block26 {
@@ -3645,15 +3707,14 @@ svg {
 }
 
 #block36 {
-    left: 30%;
+    left: 15%;
+    top: 0.5em;
 }
 #block34{
-        left: 42%;
-        margin-top: 2.7em;
+        margin-top: 1.8em;
      }
      #block35{
-        left: 60%;
-        margin-top: 2.7em;
+        margin-top: 1.8em;
      }
 }
 
@@ -3677,14 +3738,32 @@ svg {
     top: -3.3em;
 }
     #block26 {
-    top: -4.5em;
+    left: 54%;
 }
     #block24 {
-    left: -9%;
+    left: 3%;
 }
+    #block23{
+        width: 12em;
+    }
+    #block18{
+        width: 12em;
+    }
     #block25 {
-    left: 10%;
+    left: 18%;
 }
+    #block36{
+        left: 10%;
+    }
+    #block34{
+        left: 27%;
+    }
+    #block35{
+        left: 43%;
+    }
+    #block19{
+        left: 70%;
+    }
 }
 
 
@@ -3738,11 +3817,7 @@ svg {
         left: 51%;
         width: 10em;
     }
-    #block19{
-        left: 67%;
-        top: -3.3em;
-        width: 10em;
-    }
+
     #block20{
         top: -0.3em;
         left: -3%;
@@ -3760,15 +3835,8 @@ svg {
         left: 63%;
         width: 12em;
     }
-    #block24{
-        left: -10%;
-    }
-     #block25{
-        left: 30%;
-    }
-     #block26 {
-    top: -4.5em;
-}
+
+
      #block27 {
     top: -3.5em;
     left: 33%;

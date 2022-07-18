@@ -17,6 +17,33 @@ body {
     top: 0 !important;
 }
 
+
+.gallery img {
+
+  transition: .2s linear; cursor: pointer;
+}
+.show img { opacity: .25; pointer-events: none; }
+.activate {
+  transition: box-shadow .2s linear .2s, top 0.2s ease-out, left 0.2s ease-out, transform 0.2s ease-out, width 0.2s ease-in, height 0.2s ease-in;
+  box-shadow: 0 0 0 10px #dbd5d2;
+    filter: drop-shadow(1px 2px 6px #333);
+    pointer-events: none;
+    border-radius: 5px;
+}
+.close {
+  position: relative; left: 100%;
+  height: 20px; width: 20px;
+  transform: translate(0%, -100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff, 0 0 2px 2px #333;
+  font: bold 20px/20px Arial; text-align: center;
+  background-color: #333; color: #fff;
+  pointer-events: auto; cursor: pointer;
+  transition: 1s linear; opacity: 0;
+}
+.active .close:hover { transform: translate(0%, -100%) ; transition: 0.2s ease; }
+
+
 /*************************************************PRELOADER************************************************/
 .preloader {
       /*фиксированное позиционирование*/
@@ -551,7 +578,7 @@ font-weight: 700;
 }
 .angle6{
     width: 7px;
-    height: 65em;
+    height: 65.5em;
     margin-left: 5%;
     background: #F7C59F;
     border-top-left-radius: 30px;
@@ -3216,6 +3243,11 @@ svg {
     margin-top: -0.4%;
 }
 .svg_firstarrow svg{
+    left: -1%;
+    margin-top: -1em;
+}
+.svg_lastarrow svg{
+transform: rotate(180deg);
     left: -0.1%;
     margin-top: -1.1em;
 }
@@ -3249,6 +3281,12 @@ svg {
 #black_block_1{
     top: -2em;
 }
+#block34{
+        margin-top: -1.7em;
+     }
+     #block35{
+        margin-top: -1.7em;
+     }
 @media(max-width: 1600px){
     .svg_fourthangle svg{
         left: 7%;
@@ -3480,23 +3518,22 @@ left: 79%;
     width: 2px;
     background-color: #e4abb2;
     }
-    #block34::before{
+    #block34 .black_block_year::before{
         position: absolute;
     content: " ";
-    height: 12em;
-    left: 100%;
-    top: 0%;
-    transform: translate(-0%, -110%);
+    height: 2em;
+    left: 50%;
+    top: 40%;
     width: 2px;
     background-color: #e4abb2;
     }
-    #block35::before{
+    #block35 .black_block_year::before{
         position: absolute;
     content: " ";
-    height: 12em;
-    left: 100%;
-    top: 0%;
-    transform: translate(-0%, -110%);
+    height: 2em;
+    left: 50%;
+    top: 40%;
+    /* transform: translate(-0%, -110%); */
     width: 2px;
     background-color: #e4abb2;
     }
@@ -3528,14 +3565,18 @@ left: 79%;
      #block34{
         left: 30%;
          width: 10em;
-        margin-top: 1.4em;
      }
      #block35{
        left: 45%;
          width: 10em;
-        margin-top: 1.4em;
      }
 
+     #block34 .black_block_title{
+margin-bottom: 30%;
+     }
+     #block35 .black_block_title{
+margin-bottom: 30%;
+     }
 
 
 
@@ -3710,12 +3751,7 @@ left: 79%;
     left: 15%;
     top: 0.5em;
 }
-#block34{
-        margin-top: 1.8em;
-     }
-     #block35{
-        margin-top: 1.8em;
-     }
+
 }
 
 
@@ -3855,7 +3891,6 @@ left: 79%;
      }
      #block34{
         left: 38%;
-        margin-top: 1.8em;
         width: 12em;
      }
      #block36{
@@ -3865,7 +3900,6 @@ left: 79%;
      }
      #block35{
         left: 63%;
-        margin-top: 1.8em;
         width: 11em;
      }
 }

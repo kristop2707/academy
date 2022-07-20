@@ -3249,7 +3249,7 @@ svg {
 .svg_lastarrow svg{
 transform: rotate(180deg);
     left: -0.1%;
-    margin-top: -1.1em;
+    margin-top: -1em;
 }
 .svg_secondarrow svg{
      left: 38%;
@@ -3458,7 +3458,7 @@ transform: rotate(180deg);
     }
     #block19{
        left: 74%;
-    top: -2.2em;
+    top: -11em;
     width: 10em;
     }
     #block20{
@@ -3511,7 +3511,7 @@ left: 79%;
     #block19::before{
         position: absolute;
     content: " ";
-    height: 10em;
+    height: 3em;
     left: 100%;
     top: 0%;
     transform: translate(-0%, -110%);
@@ -3540,7 +3540,7 @@ left: 79%;
     #block36::before{
         position: absolute;
     content: " ";
-    height: 12em;
+    height: 3em;
     left: 100%;
     top: 0%;
     transform: translate(-0%, -110%);
@@ -3560,7 +3560,7 @@ left: 79%;
     #block36{
     width: 10em;
         left: 15%;
-    top: 0.2em;
+    top: -11em;
     }
      #block34{
         left: 30%;

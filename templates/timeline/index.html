@@ -574,14 +574,14 @@
 </svg></div></div--></div>
 <div class="black_block1" id="block27" >
             <div class="wrapper">{% for el in ef %}
-            <a href="#" class="open-popup30"> <div class="black_block_title" >
+            <a href="#" class="open-popup29"> <div class="black_block_title" >
                 {{ el.title }}
             </div></a>
-                <a href="#" class="open-popup30"> <div class="black_rectangle2">
-                  <a href="#" class="open-popup30"> <div class="black_rectangle_small2">
+                <a href="#" class="open-popup29"> <div class="black_rectangle2">
+                  <a href="#" class="open-popup29"> <div class="black_rectangle_small2">
                 </div></a>
                 </div></a>
-            <a href="#" class="open-popup30"> <div class="black_block_year">
+            <a href="#" class="open-popup29"> <div class="black_block_year">
                 {{ el.year }}
             </div></a>{% endfor %}
             </div>
@@ -690,6 +690,7 @@
         </div>
              </div>
 </div>
+
     </div>
 
     <section class="footer">
@@ -914,13 +915,14 @@
            {% endfor %}
         </div>
         <div class="popup_content">
-            <p> </p>
+             {% for el in qn %}
+        <p>{{ el.text|linebreaks }}</p>
 </div>
        <div class="photos_popup">
         <img class="photo_popup" src="{}" alt="photo_popup">
 
         <img class="photo_popup" src="{}" alt="photo_popup">
-       </div>
+       </div>{% endfor %}
         <div class="icons">
             <a class="arrow5"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv6()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1112,13 +1114,14 @@
            {% endfor %}
         </div>
         <div class="popup_content">
-            <p></p>
+            {% for el in ww %}
+        <p>{{ el.text|linebreaks }}</p>
 </div>
        <div class="photos_popup">
         <img class="photo_popup" src="{}" alt="photo_popup">
 
         <img class="photo_popup" src="{}" alt="photo_popup">
-       </div>
+       </div>{% endfor %}
         <div class="icons">
             <a class="arrow12"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv13()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1260,14 +1263,14 @@
            {% endfor %}
         </div>
         <div class="popup_content">
-           <p>
-           </p>
+           {% for el in qm %}
+        <p>{{ el.text|linebreaks }}</p>
 </div>
        <div class="photos_popup">
         <img class="photo_popup" src="{}" alt="photo_popup">
 
         <img class="photo_popup" src="{}" alt="photo_popup">
-       </div>
+       </div>{% endfor %}
         <div class="icons">
             <a class="arrow17"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv18()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1495,13 +1498,14 @@
            {% endfor %}
         </div>
         <div class="popup_content">
-            <p></p>
+            {% for el in wq %}
+        <p>{{ el.text|linebreaks }}</p>
 </div>
        <div class="photos_popup">
         <img class="photo_popup" src="{}" alt="photo_popup">
 
         <img class="photo_popup" src="{}" alt="photo_popup">
-       </div>
+       </div>{% endfor %}
         <div class="icons">
             <a class="arrow26"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv27()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1569,13 +1573,14 @@
            {% endfor %}
         </div>
         <div class="popup_content">
-            <p></p>
+           {% for el in we %}
+        <p>{{ el.text|linebreaks }}</p>
 </div>
        <div class="photos_popup">
         <img class="photo_popup" src="{}" alt="photo_popup">
 
         <img class="photo_popup" src="{}" alt="photo_popup">
-       </div>
+       </div>{% endfor %}
         <div class="icons">
             <a class="arrow29"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv30()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1594,13 +1599,14 @@
            {% endfor %}
         </div>
         <div class="popup_content">
-            <p></p>
+           {% for el in we %}
+        <p>{{ el.text|linebreaks }}</p>
 </div>
        <div class="photos_popup">
         <img class="photo_popup" src="{}" alt="photo_popup">
 
         <img class="photo_popup" src="{}" alt="photo_popup">
-       </div>
+       </div>{% endfor %}
         <div class="icons">
             <a class="arrow30"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv31()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>

@@ -16,6 +16,9 @@ body{
 body {
     top: 0 !important;
 }
+.mobile--version{
+    opacity: 0;
+}
 
 
 .gallery img {
@@ -163,18 +166,15 @@ p::selection, div::selection{
 }
 .rectangle{
     width: 100%;
-    height: 120px;
+    height: auto;
     background-color: #5E5E5E;
     position: absolute;
+    padding-top: 3.2em;
 }
 
 .logo{
-   position: relative;
-    top: 15%;
-    margin-left: 0;
-    width: 105px;
-    transform: translate(0, 15%);
-    height: 91px;
+   width: 105px;
+    transform: translate(0, -25%);
 }
 .logo_footer{
     vertical-align: middle;
@@ -4031,4 +4031,144 @@ margin-bottom: 30%;
 .line_content{
     display: none;
 }
+    .mobile--version{
+        display: flex;
+        opacity: 1;
+        justify-content: space-between;
+        top: 3em;
+    position: relative;
+    }
+.menu_year1 {
+    position: absolute;
+    float: right;
+    padding-left: 45%;
+    font-size: 30px;
+    font-weight: 700;
+    transition: all 0.5s;
+    color: white;
+}
+.left_menu11 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 0em;
+    width: 100px;
+}
+.left_menu21 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 4em;
+    width: 100px;
+}
+.left_menu31 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 8em;
+    width: 100px;
+}
+.left_menu41 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 12em;
+    width: 100px;
+}
+.left_menu51 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 16em;
+    width: 100px;
+}.left_menu61 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 20em;
+    width: 100px;
+}
+ .left_menu71 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 24em;
+    width: 100px;
+}
+ .left_menu81 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 28em;
+    width: 100px;
+}
+ .left_menu91 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 32em;
+    width: 100px;
+}
+ .left_menu101 {
+    position: relative;
+    float: left;
+    color: white;
+    top: 36em;
+    width: 100px;
+}
+.mobile--left{
+    border-right: 3px #f7c59f solid;
+    height: 40em;
+    position: relative;
+
+    padding-top: 2em;
+    width: 30%;
+}
+    .mobile--right {
+width: 60%;
+    overflow-y: auto;
+    height: 42em;
+    position: relative;
+}
+    .mobile--text{
+        margin-bottom: 1em;
+
+        width: 21em;
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    }
+    #mobile--year{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #mobile--year--light{
+        color: #FFD8DD;
+        font-weight: 500;
+    }
+    #mobile--year--black{
+        color: #FFDFC7;
+        font-weight: 500;
+    }
+    .year{
+        width: 101px;
+    }
+    .context_bg {
+    height: 50em;
+    }
+    .language {
+    left: 80%;
+    transform: translate(-15%, -50%);
+}
+    .text_main {
+    width: auto;
+    font-weight: 500;
+        font-size: 16px;
+}
+    .language_click{
+        font-size: 20px;
+    }
+    .language{
+        left: 85%;
+    }
 }

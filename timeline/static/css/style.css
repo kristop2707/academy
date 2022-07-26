@@ -16,8 +16,8 @@ body{
 body {
     top: 0 !important;
 }
-.mobile--version{
-    opacity: 0;
+.mobile{
+    display: none;
 }
 
 
@@ -3772,6 +3772,375 @@ margin-bottom: 30%;
 
 
 @media (max-width: 1100px) {
+  .left_menu1{
+        display: none;
+    }
+    .left_menu2{
+        display: none;
+    }
+    .left_menu3{
+        display: none;
+    }
+    .left_menu4{
+        display: none;
+    }
+    .left_menu5{
+        display: none;
+    }
+    .left_menu6{
+        display: none;
+    }
+    .left_menu7{
+        display: none;
+    }
+    .left_menu8{
+        display: none;
+    }
+    .left_menu9{
+        display: none;
+    }
+    .left_menu10{
+        display: none;
+    }
+    .popup1{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup2{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup3{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup4{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup5{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup6{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup7{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup8{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup9{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup10{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup11{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup12{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup13{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup14{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup15{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup16{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup17{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup18{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup19{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup20{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup21{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup22{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup23{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup24{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup25{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup26{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup27{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup28{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup29{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup30{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup31{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup32{
+        width: 80%;
+    transform: translate(-50%, 0px);
+    left: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    .popup_content{
+        font-size: 14px;
+    }
+    .close-popup1{
+        left: 85%;
+    }
+    .close-popup2{
+        left: 85%;
+    }
+    .close-popup3{
+        left: 85%;
+    }.close-popup4{
+        left: 85%;
+    }.close-popup5{
+        left: 85%;
+    }
+     .close-popup6{
+        left: 85%;
+    }.close-popup7{
+        left: 85%;
+    }
+     .close-popup8{
+        left: 85%;
+    }.close-popup9{
+        left: 85%;
+    }.close-popup10{
+        left: 85%;
+    }.close-popup11{
+        left: 85%;
+    }.close-popup12{
+        left: 85%;
+    }.close-popup13{
+        left: 85%;
+    }.close-popup14{
+        left: 85%;
+    }.close-popup15{
+        left: 85%;
+    }.close-popup16{
+        left: 85%;
+    }.close-popup17{
+        left: 85%;
+    }.close-popup18{
+        left: 85%;
+    }.close-popup19{
+        left: 85%;
+    }.close-popup20{
+        left: 85%;
+    }.close-popup21{
+        left: 85%;
+    }.close-popup22{
+        left: 85%;
+    }.close-popup23{
+        left: 85%;
+    }.close-popup24{
+        left: 85%;
+    }.close-popup25{
+        left: 85%;
+    }.close-popup26{
+        left: 85%;
+    }.close-popup27{
+        left: 85%;
+    }.close-popup28{
+        left: 85%;
+    }.close-popup29{
+        left: 85%;
+    }.close-popup30{
+        left: 85%;
+    }.close-popup31{
+        left: 85%;
+    }.close-popup32{
+        left: 85%;
+    }
+.popup_header{
+    max-width: 250px;
+}
+.photo_popup{
+    height: auto;
+    max-width: 200px;}
+    .photos_popup{
+            flex-direction: column;
+    align-items: center;
+    }
+
     .block4{
     width: 12em;
         left: 66%;
@@ -4028,12 +4397,18 @@ margin-bottom: 30%;
 }
 
 @media(max-width: 800px){
+    body::-webkit-scrollbar{
+    width: 0px;
+}
 .line_content{
     display: none;
 }
+.mobile{
+    display: block;
+}
     .mobile--version{
         display: flex;
-        opacity: 1;
+
         justify-content: space-between;
         top: 3em;
     position: relative;
@@ -4130,6 +4505,15 @@ width: 60%;
     height: 42em;
     position: relative;
 }
+    .mobile--right::-webkit-scrollbar{
+    width: 6px;
+    height: 10px;
+    background-color: #333333;
+}
+.mobile--right::-webkit-scrollbar-thumb{
+    background: linear-gradient(180deg, #F7C59F 0%, #6c6c6c 100%);
+    border-radius: 10px;
+}
     .mobile--text{
         margin-bottom: 1em;
 
@@ -4171,4 +4555,251 @@ width: 60%;
     .language{
         left: 85%;
     }
+    .logo {
+    width: 55px;
+    transform: translate(0, -25%);
+    padding-bottom: 25%;
+}
+    .rectangle_footer{
+        display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em!important;
+    color: #fff;
+    overflow: hidden;
+    background: #5E5E5E;
+    align-content: center;
+    }
+    .column1{
+        margin-bottom: 10%;
+    }
+    .menu p{
+        text-align: center;
+    }
+    .menu{
+        padding: 0;
+    }
+    .column3{
+        text-align: center;
+    margin-top: 10%;
+    }
+
+
+}
+
+@media(max-width: 600px){
+    .wrapper{
+        left: 10%;
+    }
+    .popup1{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup2{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup3{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup4{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup5{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup6{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup7{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup8{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup9{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup10{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup11{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup12{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup13{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup14{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup15{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup16{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup17{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup18{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup19{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup20{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup21{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup22{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup23{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup24{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup25{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup26{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup27{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup28{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup29{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup30{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup31{
+        width: 90%;
+        padding: 10px;
+    }
+    .popup32{
+        width: 90%;
+        padding: 10px;
+    }
+    .left_menu11{
+        width: 65px;
+    }
+    .left_menu21{
+        width: 65px;
+    }
+    .left_menu31{
+        width: 65px;
+    }
+    .left_menu41{
+        width: 65px;
+    }
+    .left_menu51{
+        width: 65px;
+    }
+    .left_menu61{
+        width: 65px;
+    }
+    .left_menu71{
+        width: 65px;
+    }
+    .left_menu81{
+        width: 65px;
+    }
+    .left_menu91{
+        width: 65px;
+    }
+    .left_menu101{
+        width: 65px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .wrapper{
+        left: 0%;
+    }
+    .year {
+    width: 70px;
+}
+    #mobile--year {
+    font-size: 25px;
+    font-weight: bold;
+}
+    .title, .title_line2 {
+    font-size: 10px;
+    font-weight: 600;
+}
+    #mobile--year--light{
+        font-size: 25px;
+    }
+    #mobile--year--light.title{
+        font-size: 10px;
+    }
+     #mobile--year--black.title{
+        font-size: 10px;
+    }
+    #mobile--year--black{
+        font-size: 25px;
+    }
+    .menu_year1{
+        font-size: 20px;
+        padding-left: 30%;
+    }
+    .menu_circle{
+        height: 15px;
+    width: 15px;
+    }
+    .mobile--left{
+        width: 25%;
+    }
+    .mobile--version{
+        justify-content: center;
+    }
+    .mobile--right{
+        margin-left: 3%;
+        width: 68%;
+    }
+    .mobile--text{
+        width: 10em;
+    }
+
 }

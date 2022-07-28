@@ -228,6 +228,7 @@ closePopupButton1.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup1.classList.remove('active');
+   document.getElementById("audio2").pause();
 
 });
 closePopupButton2.addEventListener('click',() => {
@@ -402,6 +403,7 @@ closePopupMenuButton1.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup1.classList.remove('active');
+   document.getElementById("audio2").pause();
 });
 closePopupMenuButton2.addEventListener('click',() => {
  //window.speechSynthesis.pause();
@@ -558,12 +560,45 @@ closePopupMenuButton32.addEventListener('click',() => {
     popupBg.classList.remove('active');
    popup32.classList.remove('active');
       document.getElementById("audio").style.display = "none";
+      document.getElementById("audio1").pause();
 });
 document.addEventListener('click', (e) => {
     if(e.target === popupBg) {
         popupBg.classList.remove('active');
         popup1.classList.remove('active');
         popup2.classList.remove('active');
+         document.getElementById("audio3").pause();
+          document.getElementById("audio").pause();
+           document.getElementById("audio4").pause();
+            document.getElementById("audio5").pause();
+             document.getElementById("audio6").pause();
+              document.getElementById("audio7").pause();
+               document.getElementById("audio8").pause();
+                document.getElementById("audio9").pause();
+                 document.getElementById("audio10").pause();
+                  document.getElementById("audio11").pause();
+                   document.getElementById("audio12").pause();
+                    document.getElementById("audio13").pause();
+                     document.getElementById("audio14").pause();
+                      document.getElementById("audio15").pause();
+                       document.getElementById("audio16").pause();
+                        document.getElementById("audio17").pause();
+                         document.getElementById("audio18").pause();
+                          document.getElementById("audio19").pause();
+                           document.getElementById("audio20").pause();
+                            document.getElementById("audio21").pause();
+                             document.getElementById("audio22").pause();
+                              document.getElementById("audio23").pause();
+                               document.getElementById("audio24").pause();
+                                document.getElementById("audio25").pause();
+                                 document.getElementById("audio26").pause();
+                                  document.getElementById("audio27").pause();
+                                   document.getElementById("audio28").pause();
+                                    document.getElementById("audio29").pause();
+                                     document.getElementById("audio30").pause();
+                                      document.getElementById("audio31").pause();
+                                       document.getElementById("audio32").pause();
+                                        document.getElementById("audio2").pause();
           popup3.classList.remove('active');
           popup4.classList.remove('active');
            popup5.classList.remove('active');
@@ -603,6 +638,38 @@ openPopupButtons2.forEach((button) => {
         e.preventDefault();
         popupBg.classList.add('active');
         popup2.classList.add('active');
+        document.getElementById("audio2").pause();
+        document.getElementById("audio3").pause();
+          document.getElementById("audio").pause();
+           document.getElementById("audio4").pause();
+            document.getElementById("audio5").pause();
+             document.getElementById("audio6").pause();
+              document.getElementById("audio7").pause();
+               document.getElementById("audio8").pause();
+                document.getElementById("audio9").pause();
+                 document.getElementById("audio10").pause();
+                  document.getElementById("audio11").pause();
+                   document.getElementById("audio12").pause();
+                    document.getElementById("audio13").pause();
+                     document.getElementById("audio14").pause();
+                      document.getElementById("audio15").pause();
+                       document.getElementById("audio16").pause();
+                        document.getElementById("audio17").pause();
+                         document.getElementById("audio18").pause();
+                          document.getElementById("audio19").pause();
+                           document.getElementById("audio20").pause();
+                            document.getElementById("audio21").pause();
+                             document.getElementById("audio22").pause();
+                              document.getElementById("audio23").pause();
+                               document.getElementById("audio24").pause();
+                                document.getElementById("audio25").pause();
+                                 document.getElementById("audio26").pause();
+                                  document.getElementById("audio27").pause();
+                                   document.getElementById("audio28").pause();
+                                    document.getElementById("audio29").pause();
+                                     document.getElementById("audio30").pause();
+                                      document.getElementById("audio31").pause();
+                                       document.getElementById("audio32").pause();
          popup1.classList.remove('active');
            popup3.classList.remove('active');
           popup4.classList.remove('active');
@@ -1740,6 +1807,7 @@ openPopupButtons31.forEach((button) => {
         e.preventDefault();
         popupBg.classList.add('active');
         popup32.classList.add('active');
+
          popup1.classList.remove('active');
            popup3.classList.remove('active');
           popup4.classList.remove('active');

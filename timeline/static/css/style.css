@@ -1427,6 +1427,9 @@ a.open-popup32{
     background: #DACCC6 ;
     transition: 0.5s all;
     display: block;
+
+    border-radius: 25px;
+
 }
 .popup28 {
    position: absolute;
@@ -1446,6 +1449,9 @@ a.open-popup32{
     background: #DACCC6 ;
     transition: 0.5s all;
     display: block;
+
+    border-radius: 25px;
+
 }
 .popup29 {
     position: absolute;

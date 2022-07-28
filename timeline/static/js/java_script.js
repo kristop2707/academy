@@ -227,163 +227,194 @@ openPopupButtons1.forEach((button) => {
 closePopupButton1.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
+      document.getElementById("audio2").pause();
    popup1.classList.remove('active');
 
 });
 closePopupButton2.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
+    document.getElementById("audio3").pause();
    popup2.classList.remove('active');
    });
 closePopupButton3.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
+    document.getElementById("audio4").pause();
    popup3.classList.remove('active');
    });
 closePopupButton4.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup4.classList.remove('active');
+   document.getElementById("audio5").pause();
    });
 closePopupButton5.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup5.classList.remove('active');
+   document.getElementById("audio6").pause();
    });
 closePopupButton6.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup6.classList.remove('active');
+   document.getElementById("audio7").pause();
    });
 closePopupButton7.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup7.classList.remove('active');
+   document.getElementById("audio8").pause();
    });
 closePopupButton8.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup8.classList.remove('active');
+   document.getElementById("audio9").pause();
    });
 closePopupButton9.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup9.classList.remove('active');
+   document.getElementById("audio10").pause();
    });
 closePopupButton10.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup10.classList.remove('active');
+   document.getElementById("audio11").pause();
    });
 closePopupButton11.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
-   popup11.classList.remove('active');
+   popup11.classList.remove('active');document.getElementById("audio12").pause();
    });
    closePopupButton12.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup12.classList.remove('active');
+   document.getElementById("audio13").pause();
    });
    closePopupButton13.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup13.classList.remove('active');
+   document.getElementById("audio14").pause();
    });
    closePopupButton14.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup14.classList.remove('active');
+   document.getElementById("audio15").pause();
    });
    closePopupButton15.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup15.classList.remove('active');
+   document.getElementById("audio16").pause();
    });
    closePopupButton16.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup16.classList.remove('active');
+   document.getElementById("audio17").pause();
    });
    closePopupButton17.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup17.classList.remove('active');
+   document.getElementById("audio18").pause();
    });
    closePopupButton18.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup18.classList.remove('active');
+   document.getElementById("audio19").pause();
    });
    closePopupButton19.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup19.classList.remove('active');
+   document.getElementById("audio20").pause();
    });
    closePopupButton20.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup20.classList.remove('active');
+   document.getElementById("audio21").pause();
     });
    closePopupButton21.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup21.classList.remove('active');
+   document.getElementById("audio22").pause();
    });
    closePopupButton22.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup22.classList.remove('active');
+   document.getElementById("audio23").pause();
    });
    closePopupButton23.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup23.classList.remove('active');
+   document.getElementById("audio24").pause();
    });
    closePopupButton24.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup24.classList.remove('active');
+   document.getElementById("audio25").pause();
    });
    closePopupButton25.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup25.classList.remove('active');
+   document.getElementById("audio26").pause();
    });
    closePopupButton26.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup26.classList.remove('active');
+   document.getElementById("audio27").pause();
    });
    closePopupButton27.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup27.classList.remove('active');
+   document.getElementById("audio28").pause();
    });
    closePopupButton28.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup28.classList.remove('active');
+   document.getElementById("audio29").pause();
    });
    closePopupButton29.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup29.classList.remove('active');
+   document.getElementById("audio30").pause();
    });
    closePopupButton30.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup30.classList.remove('active');
+   document.getElementById("audio31").pause();
    });
    closePopupButton31.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup31.classList.remove('active');
+   document.getElementById("audio32").pause();
    });
    closePopupButton32.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup32.classList.remove('active');
+   document.getElementById("audio").pause();
    document.getElementById("audio").style.display = "none";
    });
 
@@ -402,161 +433,193 @@ closePopupMenuButton1.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup1.classList.remove('active');
+   document.getElementById("audio2").pause();
 });
 closePopupMenuButton2.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup2.classList.remove('active');
+   document.getElementById("audio3").pause();
 });
 closePopupMenuButton3.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup3.classList.remove('active');
+   document.getElementById("audio4").pause();
 });
 closePopupMenuButton4.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup4.classList.remove('active');
+   document.getElementById("audio5").pause();
 });
 closePopupMenuButton5.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup5.classList.remove('active');
+   document.getElementById("audio6").pause();
 });
 closePopupMenuButton6.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup6.classList.remove('active');
+   document.getElementById("audio7").pause();
 });
 closePopupMenuButton7.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup7.classList.remove('active');
+   document.getElementById("audio8").pause();
 });
 closePopupMenuButton8.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup8.classList.remove('active');
+   document.getElementById("audio9").pause();
 });
 closePopupMenuButton9.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup9.classList.remove('active');
+   document.getElementById("audio10").pause();
 });
 closePopupMenuButton10.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup10.classList.remove('active');
+   document.getElementById("audio11").pause();
 });
 closePopupMenuButton11.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup11.classList.remove('active');
+   document.getElementById("audio12").pause();
 });
 closePopupMenuButton12.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup12.classList.remove('active');
+   document.getElementById("audio13").pause();
 });
 closePopupMenuButton13.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup13.classList.remove('active');
+   document.getElementById("audio14").pause();
 });
 closePopupMenuButton14.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup14.classList.remove('active');
+   document.getElementById("audio15").pause();
 });
 closePopupMenuButton15.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup15.classList.remove('active');
+   document.getElementById("audio16").pause();
 });
 closePopupMenuButton16.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup16.classList.remove('active');
+   document.getElementById("audio17").pause();
 });
 closePopupMenuButton17.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup17.classList.remove('active');
+   document.getElementById("audio18").pause();
 });
 closePopupMenuButton18.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup18.classList.remove('active');
+   document.getElementById("audio19").pause();
 });
 closePopupMenuButton19.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup19.classList.remove('active');
+   document.getElementById("audio20").pause();
 });
 closePopupMenuButton20.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup20.classList.remove('active');
+   document.getElementById("audio21").pause();
 });
 closePopupMenuButton21.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup21.classList.remove('active');
+   document.getElementById("audio22").pause();
 });
 closePopupMenuButton22.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup22.classList.remove('active');
+   document.getElementById("audio23").pause();
 });
 closePopupMenuButton23.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup23.classList.remove('active');
+   document.getElementById("audio24").pause();
 });
 closePopupMenuButton24.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup24.classList.remove('active');
+   document.getElementById("audio25").pause();
 });
 closePopupMenuButton25.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup25.classList.remove('active');
+   document.getElementById("audio26").pause();
 });
 closePopupMenuButton26.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup26.classList.remove('active');
+   document.getElementById("audio27").pause();
 });
 closePopupMenuButton27.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup27.classList.remove('active');
+   document.getElementById("audio28").pause();
 });
 closePopupMenuButton28.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup28.classList.remove('active');
+   document.getElementById("audio29").pause();
 });
 closePopupMenuButton29.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup29.classList.remove('active');
+   document.getElementById("audio30").pause();
 });
 closePopupMenuButton30.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup30.classList.remove('active');
+   document.getElementById("audio31").pause();
 });
 closePopupMenuButton31.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup31.classList.remove('active');
+   document.getElementById("audio32").pause();
 });
 closePopupMenuButton32.addEventListener('click',() => {
  //window.speechSynthesis.pause();
     popupBg.classList.remove('active');
    popup32.classList.remove('active');
+   document.getElementById("audio").pause();
       document.getElementById("audio").style.display = "none";
 });
 document.addEventListener('click', (e) => {
@@ -564,6 +627,39 @@ document.addEventListener('click', (e) => {
         popupBg.classList.remove('active');
         popup1.classList.remove('active');
         popup2.classList.remove('active');
+         document.getElementById("audio3").pause();
+          document.getElementById("audio").pause();
+           document.getElementById("audio4").pause();
+            document.getElementById("audio5").pause();
+             document.getElementById("audio6").pause();
+              document.getElementById("audio7").pause();
+               document.getElementById("audio8").pause();
+                document.getElementById("audio9").pause();
+                 document.getElementById("audio10").pause();
+                  document.getElementById("audio11").pause();
+                   document.getElementById("audio12").pause();
+                    document.getElementById("audio13").pause();
+                     document.getElementById("audio14").pause();
+                      document.getElementById("audio15").pause();
+                       document.getElementById("audio16").pause();
+                        document.getElementById("audio17").pause();
+                         document.getElementById("audio18").pause();
+                          document.getElementById("audio19").pause();
+                           document.getElementById("audio20").pause();
+                            document.getElementById("audio21").pause();
+                             document.getElementById("audio22").pause();
+                              document.getElementById("audio23").pause();
+                               document.getElementById("audio24").pause();
+                                document.getElementById("audio25").pause();
+                                 document.getElementById("audio26").pause();
+                                  document.getElementById("audio27").pause();
+                                   document.getElementById("audio28").pause();
+                                    document.getElementById("audio29").pause();
+                                     document.getElementById("audio30").pause();
+                                      document.getElementById("audio31").pause();
+                                       document.getElementById("audio32").pause();
+                                        document.getElementById("audio2").pause();
+
           popup3.classList.remove('active');
           popup4.classList.remove('active');
            popup5.classList.remove('active');

@@ -26,9 +26,10 @@ SECRET_KEY = 'django-insecure-_^qa61%lq%9&vc9ynuhox+=b3o8@=++%1ceb=k(s%v!79w1(ra
 DEBUG = True
 
 ALLOWED_HOSTS = [
-        '192.168.1.16',
-        '195.138.86.105',
-        'localhost',
+        '192.168.1.16', #local ip
+        '195.138.86.105', # global ip
+        'timeline.ontu.edu.ua', #domain
+        'localhost', 
         ]
 
 

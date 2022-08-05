@@ -1,6 +1,7 @@
 // Get the modal
 var modal = document.getElementById("myModal");
-
+let myModal = document.querySelector('#myModal');
+let myImg = document.querySelector('#myImg');
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
@@ -18,6 +19,1423 @@ var span = document.getElementsByClassName("closeimg")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+document.addEventListener('click', (e) => {
+    if(e.target === myModal) {
+modal.style.display = "none";
+    }
+});
+
+
+
+
+// Get the modal
+var modal2 = document.getElementById("myModal2");
+let myModal2 = document.querySelector('#myModal2');
+let myImg2 = document.querySelector('#myImg2');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img2 = document.getElementById("myImg2");
+var modalImg2 = document.getElementById("img02");
+var captionText2 = document.getElementById("caption2");
+img2.onclick = function(){
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+  captionText2.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("closeimg2")[0];
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+document.addEventListener('click', (e) => {
+    if(e.target === myModal2) {
+modal2.style.display = "none";
+    }
+});
+
+
+
+
+// Get the modal
+var modal3 = document.getElementById("myModal3");
+let myModal3 = document.querySelector('#myModal3');
+let myImg3 = document.querySelector('#myImg3');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img3 = document.getElementById("myImg3");
+var modalImg3 = document.getElementById("img03");
+var captionText3 = document.getElementById("caption3");
+img3.onclick = function(){
+  modal3.style.display = "block";
+  modalImg3.src = this.src;
+  captionText3.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span3 = document.getElementsByClassName("closeimg3")[0];
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+
+document.addEventListener('click', (e) => {
+    if(e.target === myModal3) {
+modal3.style.display = "none";
+    }
+});
+
+
+
+var modal4 = document.getElementById("myModal4");
+let myModal4 = document.querySelector('#myModal4');
+let myImg4 = document.querySelector('#myImg4');
+var img4 = document.getElementById("myImg4");
+var modalImg4 = document.getElementById("img04");
+var captionText4 = document.getElementById("caption4");
+img4.onclick = function(){
+  modal4.style.display = "block";
+  modalImg4.src = this.src;
+  captionText4.innerHTML = this.alt;
+}
+var span4 = document.getElementsByClassName("closeimg4")[0];
+span4.onclick = function() {
+  modal4.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal4) {
+modal4.style.display = "none";
+    }
+});
+
+
+var modal5 = document.getElementById("myModal5");
+let myModal5 = document.querySelector('#myModal5');
+let myImg5 = document.querySelector('#myImg5');
+var img5 = document.getElementById("myImg5");
+var modalImg5 = document.getElementById("img05");
+var captionText5 = document.getElementById("caption5");
+img5.onclick = function(){
+  modal5.style.display = "block";
+  modalImg5.src = this.src;
+  captionText5.innerHTML = this.alt;
+}
+var span5 = document.getElementsByClassName("closeimg5")[0];
+span5.onclick = function() {
+  modal5.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal5) {
+modal5.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal6 = document.getElementById("myModal6");
+let myModal6 = document.querySelector('#myModal6');
+let myImg6 = document.querySelector('#myImg6');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img6 = document.getElementById("myImg6");
+var modalImg6 = document.getElementById("img06");
+var captionText6 = document.getElementById("caption6");
+img6.onclick = function(){
+  modal6.style.display = "block";
+  modalImg6.src = this.src;
+  captionText6.innerHTML = this.alt;
+}
+var span6 = document.getElementsByClassName("closeimg6")[0];
+span6.onclick = function() {
+  modal6.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal6) {
+modal6.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal7 = document.getElementById("myModal7");
+let myModal7 = document.querySelector('#myModal7');
+let myImg7 = document.querySelector('#myImg7');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img7 = document.getElementById("myImg7");
+var modalImg7 = document.getElementById("img07");
+var captionText7 = document.getElementById("caption7");
+img7.onclick = function(){
+  modal7.style.display = "block";
+  modalImg7.src = this.src;
+  captionText7.innerHTML = this.alt;
+}
+var span7 = document.getElementsByClassName("closeimg7")[0];
+span7.onclick = function() {
+  modal7.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal7) {
+modal7.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal8 = document.getElementById("myModal8");
+let myModal8 = document.querySelector('#myModal8');
+let myImg8 = document.querySelector('#myImg8');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img8 = document.getElementById("myImg8");
+var modalImg8 = document.getElementById("img08");
+var captionText8 = document.getElementById("caption8");
+img8.onclick = function(){
+  modal8.style.display = "block";
+  modalImg8.src = this.src;
+  captionText8.innerHTML = this.alt;
+}
+var span8 = document.getElementsByClassName("closeimg8")[0];
+span8.onclick = function() {
+  modal8.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal8) {
+modal8.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal9 = document.getElementById("myModal9");
+let myModal9 = document.querySelector('#myModal9');
+let myImg9 = document.querySelector('#myImg9');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img9 = document.getElementById("myImg9");
+var modalImg9 = document.getElementById("img09");
+var captionText9 = document.getElementById("caption9");
+img9.onclick = function(){
+  modal9.style.display = "block";
+  modalImg9.src = this.src;
+  captionText9.innerHTML = this.alt;
+}
+var span9 = document.getElementsByClassName("closeimg9")[0];
+span9.onclick = function() {
+  modal9.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal9) {
+modal9.style.display = "none";
+    }
+});
+
+
+var modal10 = document.getElementById("myModal10");
+let myModal10 = document.querySelector('#myModal10');
+let myImg10 = document.querySelector('#myImg10');
+var img10 = document.getElementById("myImg10");
+var modalImg10 = document.getElementById("img010");
+var captionText10 = document.getElementById("caption10");
+img10.onclick = function(){
+  modal10.style.display = "block";
+  modalImg10.src = this.src;
+  captionText10.innerHTML = this.alt;
+}
+var span10 = document.getElementsByClassName("closeimg10")[0];
+span10.onclick = function() {
+  modal10.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal10) {
+modal10.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal11 = document.getElementById("myModal11");
+let myModal11 = document.querySelector('#myModal11');
+let myImg11 = document.querySelector('#myImg11');
+var img11 = document.getElementById("myImg11");
+var modalImg11 = document.getElementById("img011");
+var captionText11 = document.getElementById("caption11");
+img11.onclick = function(){
+  modal11.style.display = "block";
+  modalImg11.src = this.src;
+  captionText11.innerHTML = this.alt;
+}
+var span11 = document.getElementsByClassName("closeimg11")[0];
+span11.onclick = function() {
+  modal11.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal11) {
+modal11.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal12 = document.getElementById("myModal12");
+let myModal12 = document.querySelector('#myModal12');
+let myImg12 = document.querySelector('#myImg12');
+var img12 = document.getElementById("myImg12");
+var modalImg12 = document.getElementById("img012");
+var captionText12 = document.getElementById("caption12");
+img12.onclick = function(){
+  modal12.style.display = "block";
+  modalImg12.src = this.src;
+  captionText12.innerHTML = this.alt;
+}
+var span12 = document.getElementsByClassName("closeimg12")[0];
+span12.onclick = function() {
+  modal12.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal12) {
+modal12.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal13 = document.getElementById("myModal13");
+let myModal13 = document.querySelector('#myModal13');
+let myImg13 = document.querySelector('#myImg13');
+var img13 = document.getElementById("myImg13");
+var modalImg13 = document.getElementById("img013");
+var captionText13 = document.getElementById("caption13");
+img13.onclick = function(){
+  modal13.style.display = "block";
+  modalImg13.src = this.src;
+  captionText13.innerHTML = this.alt;
+}
+var span13 = document.getElementsByClassName("closeimg13")[0];
+span13.onclick = function() {
+  modal13.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal13) {
+modal13.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal14 = document.getElementById("myModal14");
+let myModal14 = document.querySelector('#myModal14');
+let myImg14 = document.querySelector('#myImg14');
+var img14 = document.getElementById("myImg14");
+var modalImg14 = document.getElementById("img014");
+var captionText14 = document.getElementById("caption14");
+img14.onclick = function(){
+  modal14.style.display = "block";
+  modalImg14.src = this.src;
+  captionText14.innerHTML = this.alt;
+}
+var span14 = document.getElementsByClassName("closeimg14")[0];
+span14.onclick = function() {
+  modal14.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal14) {
+modal14.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal15 = document.getElementById("myModal15");
+let myModal15 = document.querySelector('#myModal15');
+let myImg15 = document.querySelector('#myImg15');
+var img15 = document.getElementById("myImg15");
+var modalImg15 = document.getElementById("img015");
+var captionText15 = document.getElementById("caption15");
+img15.onclick = function(){
+  modal15.style.display = "block";
+  modalImg15.src = this.src;
+  captionText15.innerHTML = this.alt;
+}
+var span15 = document.getElementsByClassName("closeimg15")[0];
+span15.onclick = function() {
+  modal15.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal15) {
+modal15.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal16 = document.getElementById("myModal16");
+let myModal16 = document.querySelector('#myModal16');
+let myImg16 = document.querySelector('#myImg16');
+var img16 = document.getElementById("myImg16");
+var modalImg16 = document.getElementById("img016");
+var captionText16 = document.getElementById("caption16");
+img16.onclick = function(){
+  modal16.style.display = "block";
+  modalImg16.src = this.src;
+  captionText16.innerHTML = this.alt;
+}
+var span16 = document.getElementsByClassName("closeimg16")[0];
+span16.onclick = function() {
+  modal16.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal16) {
+modal16.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal17 = document.getElementById("myModal17");
+let myModal17 = document.querySelector('#myModal17');
+let myImg17 = document.querySelector('#myImg17');
+var img17 = document.getElementById("myImg17");
+var modalImg17 = document.getElementById("img017");
+var captionText17 = document.getElementById("caption17");
+img17.onclick = function(){
+  modal17.style.display = "block";
+  modalImg17.src = this.src;
+  captionText17.innerHTML = this.alt;
+}
+var span17 = document.getElementsByClassName("closeimg17")[0];
+span17.onclick = function() {
+  modal17.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal17) {
+modal17.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal18 = document.getElementById("myModal18");
+let myModal18 = document.querySelector('#myModal18');
+let myImg18 = document.querySelector('#myImg18');
+var img18 = document.getElementById("myImg18");
+var modalImg18 = document.getElementById("img018");
+var captionText18 = document.getElementById("caption18");
+img18.onclick = function(){
+  modal18.style.display = "block";
+  modalImg18.src = this.src;
+  captionText18.innerHTML = this.alt;
+}
+var span18 = document.getElementsByClassName("closeimg18")[0];
+span18.onclick = function() {
+  modal18.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal18) {
+modal18.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal19 = document.getElementById("myModal19");
+let myModal19 = document.querySelector('#myModal19');
+let myImg19 = document.querySelector('#myImg19');
+var img19 = document.getElementById("myImg19");
+var modalImg19 = document.getElementById("img019");
+var captionText19 = document.getElementById("caption19");
+img19.onclick = function(){
+  modal19.style.display = "block";
+  modalImg19.src = this.src;
+  captionText19.innerHTML = this.alt;
+}
+var span19 = document.getElementsByClassName("closeimg19")[0];
+span19.onclick = function() {
+  modal19.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal19) {
+modal19.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal20 = document.getElementById("myModal20");
+let myModal20 = document.querySelector('#myModal20');
+let myImg20 = document.querySelector('#myImg20');
+var img20 = document.getElementById("myImg20");
+var modalImg20 = document.getElementById("img020");
+var captionText20 = document.getElementById("caption20");
+img20.onclick = function(){
+  modal20.style.display = "block";
+  modalImg20.src = this.src;
+  captionText20.innerHTML = this.alt;
+}
+var span20 = document.getElementsByClassName("closeimg20")[0];
+span20.onclick = function() {
+  modal20.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal20) {
+modal20.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal21 = document.getElementById("myModal21");
+let myModal21 = document.querySelector('#myModal21');
+let myImg21 = document.querySelector('#myImg21');
+var img21 = document.getElementById("myImg21");
+var modalImg21 = document.getElementById("img021");
+var captionText21 = document.getElementById("caption21");
+img21.onclick = function(){
+  modal21.style.display = "block";
+  modalImg21.src = this.src;
+  captionText21.innerHTML = this.alt;
+}
+var span21 = document.getElementsByClassName("closeimg21")[0];
+span21.onclick = function() {
+  modal21.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal21) {
+modal21.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal22 = document.getElementById("myModal22");
+let myModal22 = document.querySelector('#myModal22');
+let myImg22 = document.querySelector('#myImg22');
+var img22 = document.getElementById("myImg22");
+var modalImg22 = document.getElementById("img022");
+var captionText22 = document.getElementById("caption22");
+img22.onclick = function(){
+  modal22.style.display = "block";
+  modalImg22.src = this.src;
+  captionText22.innerHTML = this.alt;
+}
+var span22 = document.getElementsByClassName("closeimg22")[0];
+span22.onclick = function() {
+  modal22.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal22) {
+modal22.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal23 = document.getElementById("myModal23");
+let myModal23 = document.querySelector('#myModal23');
+let myImg23 = document.querySelector('#myImg23');
+var img23 = document.getElementById("myImg23");
+var modalImg23 = document.getElementById("img023");
+var captionText23 = document.getElementById("caption23");
+img23.onclick = function(){
+  modal23.style.display = "block";
+  modalImg23.src = this.src;
+  captionText23.innerHTML = this.alt;
+}
+var span23 = document.getElementsByClassName("closeimg23")[0];
+span23.onclick = function() {
+  modal23.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal23) {
+modal23.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal24 = document.getElementById("myModal24");
+let myModal24 = document.querySelector('#myModal24');
+let myImg24 = document.querySelector('#myImg24');
+var img24 = document.getElementById("myImg24");
+var modalImg24 = document.getElementById("img024");
+var captionText24 = document.getElementById("caption24");
+img24.onclick = function(){
+  modal24.style.display = "block";
+  modalImg24.src = this.src;
+  captionText24.innerHTML = this.alt;
+}
+var span24 = document.getElementsByClassName("closeimg24")[0];
+span24.onclick = function() {
+  modal24.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal24) {
+modal24.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal25 = document.getElementById("myModal25");
+let myModal25 = document.querySelector('#myModal25');
+let myImg25 = document.querySelector('#myImg25');
+var img25 = document.getElementById("myImg25");
+var modalImg25 = document.getElementById("img025");
+var captionText25 = document.getElementById("caption25");
+img25.onclick = function(){
+  modal25.style.display = "block";
+  modalImg25.src = this.src;
+  captionText25.innerHTML = this.alt;
+}
+var span25 = document.getElementsByClassName("closeimg25")[0];
+span25.onclick = function() {
+  modal25.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal25) {
+modal25.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal26 = document.getElementById("myModal26");
+let myModal26 = document.querySelector('#myModal26');
+let myImg26 = document.querySelector('#myImg26');
+var img26 = document.getElementById("myImg26");
+var modalImg26 = document.getElementById("img026");
+var captionText26 = document.getElementById("caption26");
+img26.onclick = function(){
+  modal26.style.display = "block";
+  modalImg26.src = this.src;
+  captionText26.innerHTML = this.alt;
+}
+var span26 = document.getElementsByClassName("closeimg26")[0];
+span26.onclick = function() {
+  modal26.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal26) {
+modal26.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal27 = document.getElementById("myModal27");
+let myModal27 = document.querySelector('#myModal27');
+let myImg27 = document.querySelector('#myImg27');
+var img27 = document.getElementById("myImg27");
+var modalImg27 = document.getElementById("img027");
+var captionText27 = document.getElementById("caption27");
+img27.onclick = function(){
+  modal27.style.display = "block";
+  modalImg27.src = this.src;
+  captionText27.innerHTML = this.alt;
+}
+var span27 = document.getElementsByClassName("closeimg27")[0];
+span27.onclick = function() {
+  modal27.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal27) {
+modal27.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal28 = document.getElementById("myModal28");
+let myModal28 = document.querySelector('#myModal28');
+let myImg28 = document.querySelector('#myImg28');
+var img28 = document.getElementById("myImg28");
+var modalImg28 = document.getElementById("img028");
+var captionText28 = document.getElementById("caption28");
+img28.onclick = function(){
+  modal28.style.display = "block";
+  modalImg28.src = this.src;
+  captionText28.innerHTML = this.alt;
+}
+var span28 = document.getElementsByClassName("closeimg28")[0];
+span28.onclick = function() {
+  modal28.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal28) {
+modal28.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal29 = document.getElementById("myModal29");
+let myModal29 = document.querySelector('#myModal29');
+let myImg29 = document.querySelector('#myImg29');
+var img29 = document.getElementById("myImg29");
+var modalImg29 = document.getElementById("img029");
+var captionText29 = document.getElementById("caption29");
+img29.onclick = function(){
+  modal29.style.display = "block";
+  modalImg29.src = this.src;
+  captionText29.innerHTML = this.alt;
+}
+var span29 = document.getElementsByClassName("closeimg29")[0];
+span29.onclick = function() {
+  modal29.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal29) {
+modal29.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal30 = document.getElementById("myModal30");
+let myModal30 = document.querySelector('#myModal30');
+let myImg30 = document.querySelector('#myImg30');
+var img30 = document.getElementById("myImg30");
+var modalImg30 = document.getElementById("img030");
+var captionText30 = document.getElementById("caption30");
+img30.onclick = function(){
+  modal30.style.display = "block";
+  modalImg30.src = this.src;
+  captionText30.innerHTML = this.alt;
+}
+var span30 = document.getElementsByClassName("closeimg30")[0];
+span30.onclick = function() {
+  modal30.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal30) {
+modal30.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal31 = document.getElementById("myModal31");
+let myModal31 = document.querySelector('#myModal31');
+let myImg31 = document.querySelector('#myImg31');
+var img31 = document.getElementById("myImg31");
+var modalImg31 = document.getElementById("img031");
+var captionText31 = document.getElementById("caption31");
+img31.onclick = function(){
+  modal31.style.display = "block";
+  modalImg31.src = this.src;
+  captionText31.innerHTML = this.alt;
+}
+var span31 = document.getElementsByClassName("closeimg31")[0];
+span31.onclick = function() {
+  modal31.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal31) {
+modal31.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal32 = document.getElementById("myModal32");
+let myModal32 = document.querySelector('#myModal32');
+let myImg32 = document.querySelector('#myImg32');
+var img32 = document.getElementById("myImg32");
+var modalImg32 = document.getElementById("img032");
+var captionText32 = document.getElementById("caption32");
+img32.onclick = function(){
+  modal32.style.display = "block";
+  modalImg32.src = this.src;
+  captionText32.innerHTML = this.alt;
+}
+var span32 = document.getElementsByClassName("closeimg32")[0];
+span32.onclick = function() {
+  modal32.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal32) {
+modal32.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal33 = document.getElementById("myModal33");
+let myModal33 = document.querySelector('#myModal33');
+let myImg33 = document.querySelector('#myImg33');
+var img33 = document.getElementById("myImg33");
+var modalImg33 = document.getElementById("img033");
+var captionText33 = document.getElementById("caption33");
+img33.onclick = function(){
+  modal33.style.display = "block";
+  modalImg33.src = this.src;
+  captionText33.innerHTML = this.alt;
+}
+var span33 = document.getElementsByClassName("closeimg33")[0];
+span33.onclick = function() {
+  modal33.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal33) {
+modal33.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal34 = document.getElementById("myModal34");
+let myModal34 = document.querySelector('#myModal34');
+let myImg34 = document.querySelector('#myImg34');
+var img34 = document.getElementById("myImg34");
+var modalImg34 = document.getElementById("img034");
+var captionText34 = document.getElementById("caption34");
+img34.onclick = function(){
+  modal34.style.display = "block";
+  modalImg34.src = this.src;
+  captionText34.innerHTML = this.alt;
+}
+var span34 = document.getElementsByClassName("closeimg34")[0];
+span34.onclick = function() {
+  modal34.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal34) {
+modal34.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal35 = document.getElementById("myModal35");
+let myModal35 = document.querySelector('#myModal35');
+let myImg35 = document.querySelector('#myImg35');
+var img35 = document.getElementById("myImg35");
+var modalImg35 = document.getElementById("img035");
+var captionText35 = document.getElementById("caption35");
+img35.onclick = function(){
+  modal35.style.display = "block";
+  modalImg35.src = this.src;
+  captionText35.innerHTML = this.alt;
+}
+var span35 = document.getElementsByClassName("closeimg35")[0];
+span35.onclick = function() {
+  modal35.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal35) {
+modal35.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal36 = document.getElementById("myModal36");
+let myModal36 = document.querySelector('#myModal36');
+let myImg36 = document.querySelector('#myImg36');
+var img36 = document.getElementById("myImg36");
+var modalImg36 = document.getElementById("img036");
+var captionText36 = document.getElementById("caption36");
+img36.onclick = function(){
+  modal36.style.display = "block";
+  modalImg36.src = this.src;
+  captionText36.innerHTML = this.alt;
+}
+var span36 = document.getElementsByClassName("closeimg36")[0];
+span36.onclick = function() {
+  modal36.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal36) {
+modal36.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal37 = document.getElementById("myModal37");
+let myModal37 = document.querySelector('#myModal37');
+let myImg37 = document.querySelector('#myImg37');
+var img37 = document.getElementById("myImg37");
+var modalImg37 = document.getElementById("img037");
+var captionText37 = document.getElementById("caption37");
+img37.onclick = function(){
+  modal37.style.display = "block";
+  modalImg37.src = this.src;
+  captionText37.innerHTML = this.alt;
+}
+var span37 = document.getElementsByClassName("closeimg37")[0];
+span37.onclick = function() {
+  modal37.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal37) {
+modal37.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal38 = document.getElementById("myModal38");
+let myModal38 = document.querySelector('#myModal38');
+let myImg38 = document.querySelector('#myImg38');
+var img38 = document.getElementById("myImg38");
+var modalImg38 = document.getElementById("img038");
+var captionText38 = document.getElementById("caption38");
+img38.onclick = function(){
+  modal38.style.display = "block";
+  modalImg38.src = this.src;
+  captionText38.innerHTML = this.alt;
+}
+var span38 = document.getElementsByClassName("closeimg38")[0];
+span38.onclick = function() {
+  modal38.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal38) {
+modal38.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal39 = document.getElementById("myModal39");
+let myModal39 = document.querySelector('#myModal39');
+let myImg39 = document.querySelector('#myImg39');
+var img39 = document.getElementById("myImg39");
+var modalImg39 = document.getElementById("img039");
+var captionText39 = document.getElementById("caption39");
+img39.onclick = function(){
+  modal39.style.display = "block";
+  modalImg39.src = this.src;
+  captionText39.innerHTML = this.alt;
+}
+var span39 = document.getElementsByClassName("closeimg39")[0];
+span39.onclick = function() {
+  modal39.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal39) {
+modal39.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal40 = document.getElementById("myModal40");
+let myModal40 = document.querySelector('#myModal40');
+let myImg40 = document.querySelector('#myImg40');
+var img40 = document.getElementById("myImg40");
+var modalImg40 = document.getElementById("img040");
+var captionText40 = document.getElementById("caption40");
+img40.onclick = function(){
+  modal40.style.display = "block";
+  modalImg40.src = this.src;
+  captionText40.innerHTML = this.alt;
+}
+var span40 = document.getElementsByClassName("closeimg40")[0];
+span40.onclick = function() {
+  modal40.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal40) {
+modal40.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal41 = document.getElementById("myModal41");
+let myModal41 = document.querySelector('#myModal41');
+let myImg41 = document.querySelector('#myImg41');
+var img41 = document.getElementById("myImg41");
+var modalImg41 = document.getElementById("img041");
+var captionText41 = document.getElementById("caption41");
+img41.onclick = function(){
+  modal14.style.display = "block";
+  modalImg41.src = this.src;
+  captionText41.innerHTML = this.alt;
+}
+var span41 = document.getElementsByClassName("closeimg41")[0];
+span41.onclick = function() {
+  modal41.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal41) {
+modal41.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal42 = document.getElementById("myModal42");
+let myModal42 = document.querySelector('#myModal42');
+let myImg42 = document.querySelector('#myImg42');
+var img42 = document.getElementById("myImg42");
+var modalImg42 = document.getElementById("img042");
+var captionText42 = document.getElementById("caption42");
+img42.onclick = function(){
+  modal42.style.display = "block";
+  modalImg42.src = this.src;
+  captionText42.innerHTML = this.alt;
+}
+var span42 = document.getElementsByClassName("closeimg42")[0];
+span42.onclick = function() {
+  modal42.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal42) {
+modal42.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal43 = document.getElementById("myModal43");
+let myModal43 = document.querySelector('#myModal43');
+let myImg43 = document.querySelector('#myImg43');
+var img43 = document.getElementById("myImg43");
+var modalImg43 = document.getElementById("img043");
+var captionText43 = document.getElementById("caption43");
+img43.onclick = function(){
+  modal43.style.display = "block";
+  modalImg43.src = this.src;
+  captionText43.innerHTML = this.alt;
+}
+var span43 = document.getElementsByClassName("closeimg43")[0];
+span43.onclick = function() {
+  modal43.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal43) {
+modal43.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal44 = document.getElementById("myModal44");
+let myModal44 = document.querySelector('#myModal44');
+let myImg44 = document.querySelector('#myImg44');
+var img44 = document.getElementById("myImg44");
+var modalImg44 = document.getElementById("img044");
+var captionText44 = document.getElementById("caption44");
+img44.onclick = function(){
+  modal44.style.display = "block";
+  modalImg44.src = this.src;
+  captionText44.innerHTML = this.alt;
+}
+var span44 = document.getElementsByClassName("closeimg44")[0];
+span44.onclick = function() {
+  modal44.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal44) {
+modal44.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal45 = document.getElementById("myModal45");
+let myModal45 = document.querySelector('#myModal45');
+let myImg45 = document.querySelector('#myImg45');
+var img45 = document.getElementById("myImg45");
+var modalImg45 = document.getElementById("img045");
+var captionText45 = document.getElementById("caption45");
+img45.onclick = function(){
+  modal45.style.display = "block";
+  modalImg45.src = this.src;
+  captionText45.innerHTML = this.alt;
+}
+var span45 = document.getElementsByClassName("closeimg45")[0];
+span45.onclick = function() {
+  modal45.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal45) {
+modal45.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal46 = document.getElementById("myModal46");
+let myModal46 = document.querySelector('#myModal46');
+let myImg46 = document.querySelector('#myImg46');
+var img46 = document.getElementById("myImg46");
+var modalImg46 = document.getElementById("img046");
+var captionText46 = document.getElementById("caption46");
+img46.onclick = function(){
+  modal46.style.display = "block";
+  modalImg46.src = this.src;
+  captionText46.innerHTML = this.alt;
+}
+var span46 = document.getElementsByClassName("closeimg46")[0];
+span46.onclick = function() {
+  modal46.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal46) {
+modal46.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal47 = document.getElementById("myModal47");
+let myModal47 = document.querySelector('#myModal47');
+let myImg47 = document.querySelector('#myImg47');
+var img47 = document.getElementById("myImg47");
+var modalImg47 = document.getElementById("img047");
+var captionText47 = document.getElementById("caption47");
+img47.onclick = function(){
+  modal47.style.display = "block";
+  modalImg47.src = this.src;
+  captionText47.innerHTML = this.alt;
+}
+var span47 = document.getElementsByClassName("closeimg47")[0];
+span47.onclick = function() {
+  modal47.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal47) {
+modal47.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal48 = document.getElementById("myModal48");
+let myModal48 = document.querySelector('#myModal48');
+let myImg48 = document.querySelector('#myImg48');
+var img48 = document.getElementById("myImg48");
+var modalImg48 = document.getElementById("img048");
+var captionText48 = document.getElementById("caption48");
+img48.onclick = function(){
+  modal48.style.display = "block";
+  modalImg48.src = this.src;
+  captionText48.innerHTML = this.alt;
+}
+var span48 = document.getElementsByClassName("closeimg48")[0];
+span48.onclick = function() {
+  modal48.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal48) {
+modal48.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal49 = document.getElementById("myModal49");
+let myModal49 = document.querySelector('#myModal49');
+let myImg49 = document.querySelector('#myImg49');
+var img49 = document.getElementById("myImg49");
+var modalImg49 = document.getElementById("img049");
+var captionText49 = document.getElementById("caption49");
+img49.onclick = function(){
+  modal49.style.display = "block";
+  modalImg49.src = this.src;
+  captionText49.innerHTML = this.alt;
+}
+var span49 = document.getElementsByClassName("closeimg49")[0];
+span49.onclick = function() {
+  modal49.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal49) {
+modal49.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal50 = document.getElementById("myModal50");
+let myModal50 = document.querySelector('#myModal50');
+let myImg50 = document.querySelector('#myImg50');
+var img50 = document.getElementById("myImg50");
+var modalImg50 = document.getElementById("img050");
+var captionText50 = document.getElementById("caption50");
+img50.onclick = function(){
+  modal50.style.display = "block";
+  modalImg50.src = this.src;
+  captionText50.innerHTML = this.alt;
+}
+var span50 = document.getElementsByClassName("closeimg50")[0];
+span50.onclick = function() {
+  modal50.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal50) {
+modal50.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal51 = document.getElementById("myModal51");
+let myModal51 = document.querySelector('#myModal51');
+let myImg51 = document.querySelector('#myImg51');
+var img51 = document.getElementById("myImg51");
+var modalImg51 = document.getElementById("img051");
+var captionText51 = document.getElementById("caption51");
+img51.onclick = function(){
+  modal51.style.display = "block";
+  modalImg51.src = this.src;
+  captionText51.innerHTML = this.alt;
+}
+var span51 = document.getElementsByClassName("closeimg51")[0];
+span51.onclick = function() {
+  modal51.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal51) {
+modal51.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal52 = document.getElementById("myModal52");
+let myModal52 = document.querySelector('#myModal52');
+let myImg52 = document.querySelector('#myImg52');
+var img52 = document.getElementById("myImg52");
+var modalImg52 = document.getElementById("img052");
+var captionText52 = document.getElementById("caption52");
+img52.onclick = function(){
+  modal52.style.display = "block";
+  modalImg52.src = this.src;
+  captionText52.innerHTML = this.alt;
+}
+var span52 = document.getElementsByClassName("closeimg52")[0];
+span52.onclick = function() {
+  modal52.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal52) {
+modal52.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal53 = document.getElementById("myModal53");
+let myModal53 = document.querySelector('#myModal53');
+let myImg53 = document.querySelector('#myImg53');
+var img53 = document.getElementById("myImg53");
+var modalImg53 = document.getElementById("img053");
+var captionText53 = document.getElementById("caption53");
+img53.onclick = function(){
+  modal53.style.display = "block";
+  modalImg53.src = this.src;
+  captionText53.innerHTML = this.alt;
+}
+var span53 = document.getElementsByClassName("closeimg53")[0];
+span53.onclick = function() {
+  modal53.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal53) {
+modal53.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal54 = document.getElementById("myModal54");
+let myModal54 = document.querySelector('#myModal54');
+let myImg54 = document.querySelector('#myImg54');
+var img54 = document.getElementById("myImg54");
+var modalImg54 = document.getElementById("img054");
+var captionText54 = document.getElementById("caption54");
+img54.onclick = function(){
+  modal54.style.display = "block";
+  modalImg54.src = this.src;
+  captionText54.innerHTML = this.alt;
+}
+var span54 = document.getElementsByClassName("closeimg54")[0];
+span54.onclick = function() {
+  modal54.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal54) {
+modal54.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal55 = document.getElementById("myModal55");
+let myModal55 = document.querySelector('#myModal55');
+let myImg55 = document.querySelector('#myImg55');
+var img55 = document.getElementById("myImg55");
+var modalImg55 = document.getElementById("img055");
+var captionText55 = document.getElementById("caption55");
+img55.onclick = function(){
+  modal55.style.display = "block";
+  modalImg55.src = this.src;
+  captionText55.innerHTML = this.alt;
+}
+var span55 = document.getElementsByClassName("closeimg55")[0];
+span55.onclick = function() {
+  modal55.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal55) {
+modal55.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal56 = document.getElementById("myModal56");
+let myModal56 = document.querySelector('#myModal56');
+let myImg56 = document.querySelector('#myImg56');
+var img56 = document.getElementById("myImg56");
+var modalImg56 = document.getElementById("img056");
+var captionText56 = document.getElementById("caption56");
+img56.onclick = function(){
+  modal56.style.display = "block";
+  modalImg56.src = this.src;
+  captionText56.innerHTML = this.alt;
+}
+var span56 = document.getElementsByClassName("closeimg56")[0];
+span56.onclick = function() {
+  modal56.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal56) {
+modal56.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal57 = document.getElementById("myModal57");
+let myModal57 = document.querySelector('#myModal57');
+let myImg57 = document.querySelector('#myImg57');
+var img57 = document.getElementById("myImg57");
+var modalImg57 = document.getElementById("img057");
+var captionText57 = document.getElementById("caption57");
+img57.onclick = function(){
+  modal57.style.display = "block";
+  modalImg57.src = this.src;
+  captionText57.innerHTML = this.alt;
+}
+var span57 = document.getElementsByClassName("closeimg57")[0];
+span57.onclick = function() {
+  modal57.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal57) {
+modal57.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal58 = document.getElementById("myModal58");
+let myModal58 = document.querySelector('#myModal58');
+let myImg58 = document.querySelector('#myImg58');
+var img58 = document.getElementById("myImg58");
+var modalImg58 = document.getElementById("img058");
+var captionText58 = document.getElementById("caption58");
+img58.onclick = function(){
+  modal58.style.display = "block";
+  modalImg58.src = this.src;
+  captionText58.innerHTML = this.alt;
+}
+var span58 = document.getElementsByClassName("closeimg58")[0];
+span58.onclick = function() {
+  modal58.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal58) {
+modal58.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal59 = document.getElementById("myModal59");
+let myModal59 = document.querySelector('#myModal59');
+let myImg59 = document.querySelector('#myImg59');
+var img59 = document.getElementById("myImg59");
+var modalImg59 = document.getElementById("img059");
+var captionText59 = document.getElementById("caption59");
+img59.onclick = function(){
+  modal59.style.display = "block";
+  modalImg59.src = this.src;
+  captionText59.innerHTML = this.alt;
+}
+var span59 = document.getElementsByClassName("closeimg59")[0];
+span59.onclick = function() {
+  modal59.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal59) {
+modal59.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal60 = document.getElementById("myModal60");
+let myModal60 = document.querySelector('#myModal60');
+let myImg60 = document.querySelector('#myImg60');
+var img60 = document.getElementById("myImg60");
+var modalImg60 = document.getElementById("img060");
+var captionText60 = document.getElementById("caption60");
+img60.onclick = function(){
+  modal60.style.display = "block";
+  modalImg60.src = this.src;
+  captionText60.innerHTML = this.alt;
+}
+var span60 = document.getElementsByClassName("closeimg60")[0];
+span60.onclick = function() {
+  modal60.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal60) {
+modal60.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal61 = document.getElementById("myModal61");
+let myModal61 = document.querySelector('#myModal61');
+let myImg61 = document.querySelector('#myImg61');
+var img61 = document.getElementById("myImg61");
+var modalImg61 = document.getElementById("img061");
+var captionText61 = document.getElementById("caption61");
+img61.onclick = function(){
+  modal61.style.display = "block";
+  modalImg61.src = this.src;
+  captionText61.innerHTML = this.alt;
+}
+var span61 = document.getElementsByClassName("closeimg61")[0];
+span61.onclick = function() {
+  modal61.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal61) {
+modal61.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal62 = document.getElementById("myModal62");
+let myModal62 = document.querySelector('#myModal62');
+let myImg62 = document.querySelector('#myImg62');
+var img62 = document.getElementById("myImg62");
+var modalImg62 = document.getElementById("img062");
+var captionText62 = document.getElementById("caption62");
+img62.onclick = function(){
+  modal62.style.display = "block";
+  modalImg62.src = this.src;
+  captionText62.innerHTML = this.alt;
+}
+var span62 = document.getElementsByClassName("closeimg62")[0];
+span62.onclick = function() {
+  modal62.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal62) {
+modal62.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal63 = document.getElementById("myModal63");
+let myModal63 = document.querySelector('#myModal63');
+let myImg63 = document.querySelector('#myImg63');
+var img63 = document.getElementById("myImg63");
+var modalImg63 = document.getElementById("img063");
+var captionText63 = document.getElementById("caption63");
+img63.onclick = function(){
+  modal63.style.display = "block";
+  modalImg63.src = this.src;
+  captionText63.innerHTML = this.alt;
+}
+var span63 = document.getElementsByClassName("closeimg63")[0];
+span63.onclick = function() {
+  modal63.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal63) {
+modal63.style.display = "none";
+    }
+});
+
+// Get the modal
+var modal64 = document.getElementById("myModal64");
+let myModal64 = document.querySelector('#myModal64');
+let myImg64 = document.querySelector('#myImg64');
+var img64 = document.getElementById("myImg64");
+var modalImg64 = document.getElementById("img064");
+var captionText64 = document.getElementById("caption64");
+img64.onclick = function(){
+  modal64.style.display = "block";
+  modalImg64.src = this.src;
+  captionText64.innerHTML = this.alt;
+}
+var span64 = document.getElementsByClassName("closeimg64")[0];
+span64.onclick = function() {
+  modal64.style.display = "none";
+}
+document.addEventListener('click', (e) => {
+    if(e.target === myModal64) {
+modal64.style.display = "none";
+    }
+});
+
+
 
 
 let popupBg = document.querySelector('.popup__bg');
@@ -1863,7 +3281,7 @@ openPopupButtons31.forEach((button) => {
 
 
 function viewDiv1(){
-  document.getElementById("audio1").style.display = "inline-block";
+  document.getElementById("audio").style.display = "inline-block";
 
 }
 function viewDiv2(){

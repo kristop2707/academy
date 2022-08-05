@@ -17,7 +17,15 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
 <link rel="shortcut icon" href="{% static 'img/gerb_middle.png' %}" type="image/x-icon">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K7KH1TWVSR"></script>
+    <script>
+    	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
 
+  	gtag('config', 'G-K7KH1TWVSR');
+    </script>
     <title>Timeline ОНТУ</title>
 </head>
 <body>
@@ -30,7 +38,7 @@
 
 <section class="context"><section class="header">
     <div class="rectangle">
-     <a href="https://www.onaft.edu.ua/" target="_blank" style="display: inline-block;
+     <a href="https://www.ontu.edu.ua/" target="_blank" style="display: inline-block;
     width: 88px;
     position: relative;
     /* padding-left: 10%; */
@@ -967,15 +975,15 @@
         <div class="column1">
             <a href="#" class="text_main_footer"><div class="text_main_footer" style="padding-bottom: 7%">Історія Одеського національного технологічного університету</div></a>
 <div style="display:flex;width: 100%;justify-content: space-between">
-            <a href="https://www.onaft.edu.ua/" target="_blank" style="display: inline-block;"> <img class="logo_footer" src="{% static 'img/gerb_big.png' %}" alt="logo"></a>
+            <a href="https://www.ontu.edu.ua/" target="_blank" style="display: inline-block;"> <img class="logo_footer" src="{% static 'img/gerb_big.png' %}" alt="logo"></a>
     <div> <div class="created" style="padding-top: 8%;padding-bottom: 5%">Created by Topchyi Krystyna</div>
             <div class="rights">© ONTULibrary, <script>document.write(new Date().getFullYear())</script>. All rights reserved</div></div>
 </div>
         </div>
         <div class="menu">
             <ul class="link"><p style="font-size: 20px;font-weight: 700;margin: 0;">Посилання</p>
-               <a href="https://www.onaft.edu.ua/" target="_blank" class="ontu_link"><li style="padding-bottom: 10px;padding-top: 30px">Одеський національний технологічний університет</li></a>
-               <a href="https://library.onaft.edu.ua/" target="_blank" class="library_link"><li style="padding-bottom: 10px;padding-top: 10px">Науково-технічна бібліотека ОНТУ</li></a>
+               <a href="https://www.ontu.edu.ua/" target="_blank" class="ontu_link"><li style="padding-bottom: 10px;padding-top: 30px">Одеський національний технологічний університет</li></a>
+               <a href="https://library.ontu.edu.ua/" target="_blank" class="library_link"><li style="padding-bottom: 10px;padding-top: 10px">Науково-технічна бібліотека ОНТУ</li></a>
             </ul>
         </div>
 
@@ -1074,24 +1082,22 @@
         <p>Фасад будівлі Одеської Школи Мукомелів</p>
     </div>
     <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people.png'%}" alt="Група викладачів та учнів Одеської Школи Мукомелів, 20 жовтня 1902р.">{% endfor %}
+        <img class="photo_popup" id="myImg2" src="{% static 'img/people.png'%}" alt="Група викладачів та учнів Одеської Школи Мукомелів, 20 жовтня 1902р.">{% endfor %}
          <p>Група викладачів та учнів Одеської Школи Мукомелів, 20 жовтня 1902р.</p>
             </div>
             </div>
-    <!-- The Modal -->
+
 <div id="myModal" class="modal">
-
-  <!-- The Close Button -->
- <div style="text-align: right;
-    margin: auto;
-    width: 50%;"> <span class="closeimg">&times;</span>
-
-  <!-- Modal Content (The Image) -->
+ <div class="modal_adapt" > <span class="closeimg">&times;</span>
      <img class="modal-content" id="img01"></div>
-
-  <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
 </div>
+    <div id="myModal2" class="modal2">
+ <div class="modal_adapt"> <span class="closeimg2">&times;</span>
+     <img class="modal-content" id="img02"></div>
+  <div id="caption2"></div>
+</div>
+
         <div class="icons">
             <a class="arrow1"> <i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv2()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1114,15 +1120,26 @@
 </div>
        <div class="photos_popup">
        <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/class.png'%}" alt="Креслярський клас Одеського млино-технічного училища">
+        <img class="photo_popup" id="myImg3" src="{% static 'img/class.png'%}" alt="Креслярський клас Одеського млино-технічного училища">
          <p>Креслярський клас Одеського млино-технічного училища</p>
             </div>
 
        <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/class2.png'%}" alt="Навчальна аудиторія Одеського млино-технічного училища">{% endfor %}
+        <img class="photo_popup" id="myImg4" src="{% static 'img/class2.png'%}" alt="Навчальна аудиторія Одеського млино-технічного училища">{% endfor %}
          <p>Навчальна аудиторія Одеського млино-технічного училища</p>
             </div>
        </div>
+
+    <div id="myModal3" class="modal3">
+ <div class="modal_adapt"> <span class="closeimg3">&times;</span>
+     <img class="modal-content" id="img03"></div>
+  <div id="caption3"></div>
+</div>
+    <div id="myModal4" class="modal4">
+ <div class="modal_adapt"> <span class="closeimg4">&times;</span>
+     <img class="modal-content" id="img04"></div>
+  <div id="caption4"></div>
+</div>
         <div class="icons">
             <a class="arrow2"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv3()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1147,15 +1164,26 @@
 </div>
        <div class="photos_popup">
        <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute.png'%}" alt="Борошномельний завод №52 - перше базове підприємство Одеського технікуму технології зерна і борошна, 1922 р.">
+        <img class="photo_popup" id="myImg5" src="{% static 'img/institute.png'%}" alt="Борошномельний завод №52 - перше базове підприємство Одеського технікуму технології зерна і борошна, 1922 р.">
          <p>Борошномельний завод №52 - перше базове підприємство Одеського технікуму технології зерна і борошна, 1922 р.</p>
             </div>
 
        <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute2.png'%}" alt="Будівля інституту на вул. Щепкіна, 5, 1922-1930 р.р.">
+        <img class="photo_popup" id="myImg6" src="{% static 'img/institute2.png'%}" alt="Будівля інституту на вул. Щепкіна, 5, 1922-1930 р.р.">
          <p>Будівля інституту на вул. Щепкіна, 5, 1922-1930 р.р.</p>
             </div>{% endfor %}
        </div>
+
+     <div id="myModal5" class="modal5">
+ <div class="modal_adapt"> <span class="closeimg5">&times;</span>
+     <img class="modal-content" id="img05"></div>
+  <div id="caption5"></div>
+</div>
+    <div id="myModal6" class="modal6">
+ <div class="modal_adapt"> <span class="closeimg6">&times;</span>
+     <img class="modal-content" id="img06"></div>
+  <div id="caption6"></div>
+</div>
         <div class="icons">
             <a class="arrow3"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv4()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1179,14 +1207,24 @@
 </div>
        <div class="photos_popup">
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/class3.png'%}" alt="Електротехнічна лабораторія інституту">
+        <img class="photo_popup" id="myImg7" src="{% static 'img/class3.png'%}" alt="Електротехнічна лабораторія інституту">
          <p>Електротехнічна лабораторія інституту</p>
             </div>
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/thesis.png'%}" alt="Перевірка дипломних проектів">
+        <img class="photo_popup" id="myImg8" src="{% static 'img/thesis.png'%}" alt="Перевірка дипломних проектів">
          <p>Перевірка дипломних проектів</p>
             </div>{% endfor %}
        </div>
+        <div id="myModal7" class="modal7">
+ <div class="modal_adapt"> <span class="closeimg7">&times;</span>
+     <img class="modal-content" id="img07"></div>
+  <div id="caption7"></div>
+</div>
+    <div id="myModal8" class="modal8">
+ <div class="modal_adapt"> <span class="closeimg8">&times;</span>
+     <img class="modal-content" id="img08"></div>
+  <div id="caption8"></div>
+</div>
         <div class="icons">
             <a class="arrow4"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv5()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1208,6 +1246,26 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
       {% endfor %}
+          <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg9" src="{% static 'img/'%}" alt="">
+         <p>Електротехнічна лабораторія інституту</p>
+            </div>
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg10" src="{% static 'img/'%}" alt="">
+         <p>Перевірка дипломних проектів</p>
+            </div>
+       </div>
+        <div id="myModal9" class="modal9">
+ <div class="modal_adapt"> <span class="closeimg9">&times;</span>
+     <img class="modal-content" id="img09"></div>
+  <div id="caption9"></div>
+</div>
+    <div id="myModal10" class="modal10">
+ <div class="modal_adapt"> <span class="closeimg10">&times;</span>
+     <img class="modal-content" id="img010"></div>
+  <div id="caption10"></div>
+</div>
         <div class="icons">
             <a class="arrow5"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv6()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1230,15 +1288,25 @@
 </div>
        <div class="photos_popup">
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people5.png'%}" alt="М.І.Озолін">
+        <img class="photo_popup" id="myImg11" src="{% static 'img/people5.png'%}" alt="М.І.Озолін">
          <p>М.І.Озолін</p>
             </div>
 
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people6.png'%}" alt="Колектив кафедри Технології зерна і борошна в день 60-річчя і 35-річчя інженерно-педагогічної діяльності Б.Г.Острозецераб 12 травня 1940 р.">
+        <img class="photo_popup" id="myImg12" src="{% static 'img/people6.png'%}" alt="Колектив кафедри Технології зерна і борошна в день 60-річчя і 35-річчя інженерно-педагогічної діяльності Б.Г.Острозецераб 12 травня 1940 р.">
          <p>Колектив кафедри Технології зерна і борошна в день 60-річчя і 35-річчя інженерно-педагогічної діяльності Б.Г.Острозецераб 12 травня 1940 р.</p>
             </div>{% endfor %}
        </div>
+    <div id="myModal11" class="modal11">
+ <div class="modal_adapt"> <span class="closeimg11">&times;</span>
+     <img class="modal-content" id="img011"></div>
+  <div id="caption11"></div>
+</div>
+    <div id="myModal12" class="modal12">
+ <div class="modal_adapt"> <span class="closeimg12">&times;</span>
+     <img class="modal-content" id="img012"></div>
+  <div id="caption12"></div>
+</div>
         <div class="icons">
             <a class="arrow6"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv7()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1261,15 +1329,25 @@
 </div>
        <div class="photos_popup">
          <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/document2.png'%}" alt="Довідник для абітурієнтів, 1937 р.">
+        <img class="photo_popup" id="myImg13" src="{% static 'img/document2.png'%}" alt="Довідник для абітурієнтів, 1937 р.">
          <p>Довідник для абітурієнтів, 1937 р.</p>
             </div>
 
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people4.png'%}" alt="Б.Г.Острозецер">
+        <img class="photo_popup" id="myImg14" src="{% static 'img/people4.png'%}" alt="Б.Г.Острозецер">
          <p>Б.Г.Острозецер</p>
             </div>{% endfor %}
        </div>
+    <div id="myModal13" class="modal13">
+ <div class="modal_adapt"> <span class="closeimg13">&times;</span>
+     <img class="modal-content" id="img013"></div>
+  <div id="caption13"></div>
+</div>
+    <div id="myModal14" class="modal10">
+ <div class="modal_adapt"> <span class="closeimg14">&times;</span>
+     <img class="modal-content" id="img014"></div>
+  <div id="caption14"></div>
+</div>
         <div class="icons">
             <a class="arrow7"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv8()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1292,15 +1370,25 @@
 </div>
        <div class="photos_popup">
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute3.png'%}" alt="Одеський механіко-технологічний навчально-виробничний комбінат, 1932-1935 р.р.">
+        <img class="photo_popup" id="myImg15" src="{% static 'img/institute3.png'%}" alt="Одеський механіко-технологічний навчально-виробничний комбінат, 1932-1935 р.р.">
          <p>Одеський механіко-технологічний навчально-виробничний комбінат, 1932-1935 р.р.</p>
             </div>
 
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people3.png'%}" alt="С.М.Золотарьов">
+        <img class="photo_popup" id="myImg16" src="{% static 'img/people3.png'%}" alt="С.М.Золотарьов">
          <p>С.М.Золотарьов</p>
             </div>{% endfor %}
        </div>
+      <div id="myModal15" class="modal15">
+ <div class="modal_adapt"> <span class="closeimg15">&times;</span>
+     <img class="modal-content" id="img015"></div>
+  <div id="caption15"></div>
+</div>
+    <div id="myModal16" class="modal16">
+ <div class="modal_adapt"> <span class="closeimg16">&times;</span>
+     <img class="modal-content" id="img016"></div>
+  <div id="caption16"></div>
+</div>
         <div class="icons">
             <a class="arrow8"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv9()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1323,15 +1411,25 @@
 </div>
        <div class="photos_popup">
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/document.png'%}" alt="Збірник праць 'Вісті Одеського іституту технології зерна та борошна'">
+        <img class="photo_popup" id="myImg17" src="{% static 'img/document.png'%}" alt="Збірник праць 'Вісті Одеського іституту технології зерна та борошна'">
          <p>Електротехнічна лабораторія інституту</p>
             </div>
 
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people2.png'%}" alt="Засідання кафедри технології зерна">
+        <img class="photo_popup" id="myImg18" src="{% static 'img/people2.png'%}" alt="Засідання кафедри технології зерна">
          <p>Засідання кафедри технології зерна</p>
             </div>{% endfor %}
        </div>
+      <div id="myModal17" class="modal17">
+ <div class="modal_adapt"> <span class="closeimg17">&times;</span>
+     <img class="modal-content" id="img017"></div>
+  <div id="caption17"></div>
+</div>
+    <div id="myModal18" class="modal18">
+ <div class="modal_adapt"> <span class="closeimg18">&times;</span>
+     <img class="modal-content" id="img018"></div>
+  <div id="caption18"></div>
+</div>
         <div class="icons">
             <a class="arrow9"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv10()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1353,6 +1451,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
      {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg19" src="{% static 'img/'%}" alt="">
+         <p>Електротехнічна лабораторія інституту</p>
+            </div>
+
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg20" src="{% static 'img/'%}" alt="">
+         <p>Засідання кафедри технології зерна</p>
+            </div>
+       </div>
+      <div id="myModal19" class="modal19">
+ <div class="modal_adapt"> <span class="closeimg19">&times;</span>
+     <img class="modal-content" id="img019"></div>
+  <div id="caption19"></div>
+</div>
+    <div id="myModal20" class="modal20">
+ <div class="modal_adapt"> <span class="closeimg20">&times;</span>
+     <img class="modal-content" id="img020"></div>
+  <div id="caption20"></div>
+</div>
         <div class="icons">
             <a class="arrow10"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv11()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1374,6 +1493,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
       {% endfor %}
+     <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg21" src="{% static 'img/'%}" alt="">
+         <p>Електротехнічна лабораторія інституту</p>
+            </div>
+
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg22" src="{% static 'img/'%}" alt="">
+         <p>Засідання кафедри технології зерна</p>
+            </div>
+       </div>
+      <div id="myModal21" class="modal21">
+ <div class="modal_adapt"> <span class="closeimg21">&times;</span>
+     <img class="modal-content" id="img021"></div>
+  <div id="caption21"></div>
+</div>
+    <div id="myModal22" class="modal22">
+ <div class="modal_adapt"> <span class="closeimg22">&times;</span>
+     <img class="modal-content" id="img022"></div>
+  <div id="caption22"></div>
+</div>
         <div class="icons">
             <a class="arrow11"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv12()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1395,6 +1535,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
        {% endfor %}
+     <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg23" src="{% static 'img/'%}" alt="">
+         <p>Електротехнічна лабораторія інституту</p>
+            </div>
+
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg24" src="{% static 'img/'%}" alt="">
+         <p>Засідання кафедри технології зерна</p>
+            </div>
+       </div>
+      <div id="myModal23" class="modal23">
+ <div class="modal_adapt"> <span class="closeimg23">&times;</span>
+     <img class="modal-content" id="img023"></div>
+  <div id="caption23"></div>
+</div>
+    <div id="myModal24" class="modal24">
+ <div class="modal_adapt"> <span class="closeimg24">&times;</span>
+     <img class="modal-content" id="img024"></div>
+  <div id="caption24"></div>
+</div>
         <div class="icons">
             <a class="arrow12"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv13()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1417,15 +1578,25 @@
 </div>
        <div class="photos_popup">
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people7.png'%}" alt="Керівницький склад інституту, 50-і роки">
+        <img class="photo_popup" id="myImg25" src="{% static 'img/people7.png'%}" alt="Керівницький склад інституту, 50-і роки">
          <p>Керівницький склад інституту, 50-і роки</p>
             </div>
 
       <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people8.png'%}" alt="На навчальному млині">
+        <img class="photo_popup" id="myImg26" src="{% static 'img/people8.png'%}" alt="На навчальному млині">
          <p>На навчальному млині</p>
             </div>{% endfor %}
        </div>
+     <div id="myModal25" class="modal25">
+ <div class="modal_adapt"> <span class="closeimg25">&times;</span>
+     <img class="modal-content" id="img025"></div>
+  <div id="caption25"></div>
+</div>
+    <div id="myModal26" class="modal26">
+ <div class="modal_adapt"> <span class="closeimg26">&times;</span>
+     <img class="modal-content" id="img026"></div>
+  <div id="caption26"></div>
+</div>
         <div class="icons">
             <a class="arrow13"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv14()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1448,15 +1619,25 @@
 </div>
        <div class="photos_popup">
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute4.png'%}" alt="Пам'ятник М.В.Ломоносову перед фасадом головног корпусу, 1961 р.">
+        <img class="photo_popup" id="myImg27" src="{% static 'img/institute4.png'%}" alt="Пам'ятник М.В.Ломоносову перед фасадом головног корпусу, 1961 р.">
          <p>Пам'ятник М.В.Ломоносову перед фасадом головног корпусу, 1961 р.</p>
             </div>
 
        <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people9.png'%}" alt="М.В.Роменський">
+        <img class="photo_popup" id="myImg28" src="{% static 'img/people9.png'%}" alt="М.В.Роменський">
          <p>М.В.Роменський</p>
             </div>{% endfor %}
        </div>
+     <div id="myModal27" class="modal27">
+ <div class="modal_adapt"> <span class="closeimg27">&times;</span>
+     <img class="modal-content" id="img027"></div>
+  <div id="caption27"></div>
+</div>
+    <div id="myModal28" class="modal28">
+ <div class="modal_adapt"> <span class="closeimg28">&times;</span>
+     <img class="modal-content" id="img028"></div>
+  <div id="caption28"></div>
+</div>
         <div class="icons">
             <a class="arrow14"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv15()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1479,15 +1660,25 @@
 </div>
        <div class="photos_popup">
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute5.png'%}" alt="Фасад головного корпусу з барельєфом М.В.Ломоносова">
+        <img class="photo_popup" id="myImg29" src="{% static 'img/institute5.png'%}" alt="Фасад головного корпусу з барельєфом М.В.Ломоносова">
          <p>Фасад головного корпусу з барельєфом М.В.Ломоносова</p>
             </div>
 
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute6.png'%}" alt="Новий навчальний корпус В">
+        <img class="photo_popup" id="myImg30" src="{% static 'img/institute6.png'%}" alt="Новий навчальний корпус В">
          <p>Новий навчальний корпус В</p>
             </div>{% endfor %}
        </div>
+     <div id="myModal29" class="modal29">
+ <div class="modal_adapt"> <span class="closeimg29">&times;</span>
+     <img class="modal-content" id="img029"></div>
+  <div id="caption29"></div>
+</div>
+    <div id="myModal30" class="modal30">
+ <div class="modal_adapt"> <span class="closeimg30">&times;</span>
+     <img class="modal-content" id="img030"></div>
+  <div id="caption30"></div>
+</div>
         <div class="icons">
             <a class="arrow15"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv16()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1510,15 +1701,25 @@
 </div>
        <div class="photos_popup">
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute7.png'%}" alt="Фасад Одеської державної академії харчових технологій">
+        <img class="photo_popup" id="myImg31" src="{% static 'img/institute7.png'%}" alt="Фасад Одеської державної академії харчових технологій">
          <p>Фасад Одеської державної академії харчових технологій</p>
             </div>
 
        <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people10.png'%}" alt="Б.В.Єгоров, 1996 р.">
+        <img class="photo_popup" id="myImg32" src="{% static 'img/people10.png'%}" alt="Б.В.Єгоров, 1996 р.">
          <p>Б.В.Єгоров, 1996 р.</p>
             </div>{% endfor %}
        </div>
+     <div id="myModal31" class="modal31">
+ <div class="modal_adapt"> <span class="closeimg31">&times;</span>
+     <img class="modal-content" id="img031"></div>
+  <div id="caption31"></div>
+</div>
+    <div id="myModal32" class="modal32">
+ <div class="modal_adapt"> <span class="closeimg32">&times;</span>
+     <img class="modal-content" id="img032"></div>
+  <div id="caption32"></div>
+</div>
         <div class="icons">
             <a class="arrow16"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv17()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1540,6 +1741,28 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
       {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg33" src="{% static 'img/Marchenko-V.J.jpg'%}" alt="Марченко В.Й. Декан Херсонського загальнотехнічного факультету">
+         <p>Марченко В.Й. Декан Херсонського загальнотехнічного факультету</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg34" src="{% static 'img/Semernikov-O.D.jpg'%}" alt="Семерніков О.Д. в.о. декана Херсонського загальнотехнічного факультету
+при Одеському технологічному інституті харчової промисловості">
+         <p>Семерніков О.Д. в.о. декана Херсонського загальнотехнічного факультету при Одеському технологічному інституті харчової промисловості</p>
+            </div>
+       </div>
+     <div id="myModal33" class="modal33">
+ <div class="modal_adapt"> <span class="closeimg33">&times;</span>
+     <img class="modal-content" id="img033"></div>
+  <div id="caption33"></div>
+</div>
+    <div id="myModal34" class="modal34">
+ <div class="modal_adapt"> <span class="closeimg34">&times;</span>
+     <img class="modal-content" id="img034"></div>
+  <div id="caption34"></div>
+</div>
         <div class="icons">
             <a class="arrow17"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv18()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1561,6 +1784,28 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
       {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg35" src="{% static 'img/'%}" alt="Марченко В.Й. Декан Херсонського загальнотехнічного факультету">
+         <p>Марченко В.Й. Декан Херсонського загальнотехнічного факультету</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg36" src="{% static 'img/'%}" alt="Семерніков О.Д. в.о. декана Херсонського загальнотехнічного факультету
+при Одеському технологічному інституті харчової промисловості">
+         <p>Семерніков О.Д. в.о. декана Херсонського загальнотехнічного факультету при Одеському технологічному інституті харчової промисловості</p>
+            </div>
+       </div>
+     <div id="myModal35" class="modal35">
+ <div class="modal_adapt"> <span class="closeimg35">&times;</span>
+     <img class="modal-content" id="img035"></div>
+  <div id="caption35"></div>
+</div>
+    <div id="myModal36" class="modal36">
+ <div class="modal_adapt"> <span class="closeimg36">&times;</span>
+     <img class="modal-content" id="img036"></div>
+  <div id="caption36"></div>
+</div>
         <div class="icons">
             <a class="arrow18"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv19()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1582,6 +1827,28 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
       {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg37" src="{% static 'img/'%}" alt="Марченко В.Й. Декан Херсонського загальнотехнічного факультету">
+         <p>Марченко В.Й. Декан Херсонського загальнотехнічного факультету</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg38" src="{% static 'img/'%}" alt="Семерніков О.Д. в.о. декана Херсонського загальнотехнічного факультету
+при Одеському технологічному інституті харчової промисловості">
+         <p>Семерніков О.Д. в.о. декана Херсонського загальнотехнічного факультету при Одеському технологічному інституті харчової промисловості</p>
+            </div>
+       </div>
+     <div id="myModal37" class="modal37">
+ <div class="modal_adapt"> <span class="closeimg37">&times;</span>
+     <img class="modal-content" id="img037"></div>
+  <div id="caption37"></div>
+</div>
+    <div id="myModal38" class="modal38">
+ <div class="modal_adapt"> <span class="closeimg38">&times;</span>
+     <img class="modal-content" id="img038"></div>
+  <div id="caption38"></div>
+</div>
         <div class="icons">
             <a class="arrow19"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv20()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1604,15 +1871,25 @@
 </div>
        <div class="photos_popup">
        <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute8.png'%}" alt="Навчальний корпус на Московській, 1953 р. ">
+        <img class="photo_popup" id="myImg39" src="{% static 'img/institute8.png'%}" alt="Навчальний корпус на Московській, 1953 р. ">
          <p>Навчальний корпус на Московській, 1953 р.</p>
             </div>
 
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/institute9.png'%}" alt="Начальний корпус МТТ, 2016 р.">
+        <img class="photo_popup" id="myImg40" src="{% static 'img/institute9.png'%}" alt="Начальний корпус МТТ, 2016 р.">
          <p>Начальний корпус МТТ, 2016 р.</p>
             </div>{% endfor %}
        </div>
+     <div id="myModal39" class="modal39">
+ <div class="modal_adapt"> <span class="closeimg39">&times;</span>
+     <img class="modal-content" id="img039"></div>
+  <div id="caption39"></div>
+</div>
+    <div id="myModal40" class="modal40">
+ <div class="modal_adapt"> <span class="closeimg40">&times;</span>
+     <img class="modal-content" id="img040"></div>
+  <div id="caption40"></div>
+</div>
         <div class="icons">
             <a class="arrow20"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv21()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1635,15 +1912,25 @@
 </div>
        <div class="photos_popup">
          <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people11.png'%}" alt="В.С.Мартиновський">
+        <img class="photo_popup" id="myImg41" src="{% static 'img/people11.png'%}" alt="В.С.Мартиновський">
          <p>В.С.Мартиновський</p>
             </div>
 
         <div class="photo_text">
-        <img class="photo_popup" src="{% static 'img/people12.png'%}" alt="С.Г.Ільченко">
+        <img class="photo_popup" id="myImg42" src="{% static 'img/people12.png'%}" alt="С.Г.Ільченко">
          <p>С.Г.Ільченко</p>
             </div>{% endfor %}
        </div>
+     <div id="myModal41" class="modal41">
+ <div class="modal_adapt"> <span class="closeimg41">&times;</span>
+     <img class="modal-content" id="img041"></div>
+  <div id="caption41"></div>
+</div>
+    <div id="myModal42" class="modal42">
+ <div class="modal_adapt"> <span class="closeimg42">&times;</span>
+     <img class="modal-content" id="img042"></div>
+  <div id="caption42"></div>
+</div>
         <div class="icons">
             <a class="arrow21"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv22()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1665,6 +1952,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
        {% endfor %}
+    <div class="photos_popup">
+         <div class="photo_text">
+        <img class="photo_popup" id="myImg43" src="{% static 'img/'%}" alt="В.С.Мартиновський">
+         <p>В.С.Мартиновський</p>
+            </div>
+
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg44" src="{% static 'img/'%}" alt="С.Г.Ільченко">
+         <p>С.Г.Ільченко</p>
+            </div>
+       </div>
+     <div id="myModal43" class="modal43">
+ <div class="modal_adapt"> <span class="closeimg43">&times;</span>
+     <img class="modal-content" id="img043"></div>
+  <div id="caption43"></div>
+</div>
+    <div id="myModal44" class="modal44">
+ <div class="modal_adapt"> <span class="closeimg44">&times;</span>
+     <img class="modal-content" id="img044"></div>
+  <div id="caption44"></div>
+</div>
         <div class="icons">
             <a class="arrow22"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv23()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1686,6 +1994,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
        {% endfor %}
+    <div class="photos_popup">
+         <div class="photo_text">
+        <img class="photo_popup" id="myImg45" src="{% static 'img/'%}" alt="В.С.Мартиновський">
+         <p>В.С.Мартиновський</p>
+            </div>
+
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg46" src="{% static 'img/'%}" alt="С.Г.Ільченко">
+         <p>С.Г.Ільченко</p>
+            </div>
+       </div>
+     <div id="myModal45" class="modal45">
+ <div class="modal_adapt"> <span class="closeimg45">&times;</span>
+     <img class="modal-content" id="img045"></div>
+  <div id="caption45"></div>
+</div>
+    <div id="myModal46" class="modal46">
+ <div class="modal_adapt"> <span class="closeimg46">&times;</span>
+     <img class="modal-content" id="img046"></div>
+  <div id="caption46"></div>
+</div>
         <div class="icons">
             <a class="arrow23"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv24()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1706,7 +2035,28 @@
            {% for el in qz %}
         <p>{{ el.text|linebreaks }}</p>
 </div>
+               <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg47" src="{% static 'img/holod.jpg'%}" alt="Фасад Одеської державної академії холоду">
+         <p>Фасад Одеської державної академії холоду</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg48" src="{% static 'img/table.jpg'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Вивіска Одеської державної академії холоду</p>
+            </div>
+       </div>
       {% endfor %}
+     <div id="myModal47" class="modal47">
+ <div class="modal_adapt"> <span class="closeimg47">&times;</span>
+     <img class="modal-content" id="img047"></div>
+  <div id="caption47"></div>
+</div>
+    <div id="myModal48" class="modal48">
+ <div class="modal_adapt"> <span class="closeimg48">&times;</span>
+     <img class="modal-content" id="img048"></div>
+  <div id="caption48"></div>
+</div>
         <div class="icons">
             <a class="arrow24"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv25()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1726,7 +2076,27 @@
         <div class="popup_content">
             <p></p>
 </div>
+ <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg49" src="{% static 'img/'%}" alt="Фасад Одеської державної академії холоду">
+         <p>Фасад Одеської державної академії холоду</p>
+            </div>
 
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg50" src="{% static 'img/'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Вивіска Одеської державної академії холоду</p>
+            </div>
+       </div>
+     <div id="myModal49" class="modal49">
+ <div class="modal_adapt"> <span class="closeimg49">&times;</span>
+     <img class="modal-content" id="img049"></div>
+  <div id="caption49"></div>
+</div>
+    <div id="myModal50" class="modal50">
+ <div class="modal_adapt"> <span class="closeimg50">&times;</span>
+     <img class="modal-content" id="img050"></div>
+  <div id="caption50"></div>
+</div>
         <div class="icons">
             <a class="arrow25"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv26()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1748,6 +2118,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
        {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg51" src="{% static 'img/'%}" alt="Фасад Одеської державної академії холоду">
+         <p>Фасад Одеської державної академії холоду</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg52" src="{% static 'img/'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Вивіска Одеської державної академії холоду</p>
+            </div>
+       </div>
+     <div id="myModal51" class="modal51">
+ <div class="modal_adapt"> <span class="closeimg51">&times;</span>
+     <img class="modal-content" id="img051"></div>
+  <div id="caption51"></div>
+</div>
+    <div id="myModal52" class="modal52">
+ <div class="modal_adapt"> <span class="closeimg52">&times;</span>
+     <img class="modal-content" id="img052"></div>
+  <div id="caption52"></div>
+</div>
         <div class="icons">
             <a class="arrow26"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv27()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1769,6 +2160,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
        {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg53" src="{% static 'img/'%}" alt="Фасад Одеської державної академії холоду">
+         <p>Фасад Одеської державної академії холоду</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg54" src="{% static 'img/'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Вивіска Одеської державної академії холоду</p>
+            </div>
+       </div>
+     <div id="myModal53" class="modal53">
+ <div class="modal_adapt"> <span class="closeimg53">&times;</span>
+     <img class="modal-content" id="img053"></div>
+  <div id="caption53"></div>
+</div>
+    <div id="myModal54" class="modal54">
+ <div class="modal_adapt"> <span class="closeimg54">&times;</span>
+     <img class="modal-content" id="img054"></div>
+  <div id="caption54"></div>
+</div>
         <div class="icons">
             <a class="arrow27"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv28()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1789,7 +2201,28 @@
             {% for el in qx %}
         <p>{{ el.text|linebreaks }}</p>
 </div>
+                <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg55" src="{% static 'img/mqdefault.jpg'%}" alt="Погляд зверху на Одеську національну академію харчових технологій">
+         <p>Погляд зверху на Одеську національну академію харчових технологій</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg56" src="{% static 'img/academy.jpg'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Фасад Одеської національної академії харчових технологій</p>
+            </div>
+       </div>
       {% endfor %}
+    <div id="myModal55" class="modal55">
+ <div class="modal_adapt"> <span class="closeimg55">&times;</span>
+     <img class="modal-content" id="img055"></div>
+  <div id="caption55"></div>
+</div>
+    <div id="myModal56" class="modal56">
+ <div class="modal_adapt"> <span class="closeimg56">&times;</span>
+     <img class="modal-content" id="img056"></div>
+  <div id="caption56"></div>
+</div>
         <div class="icons">
             <a class="arrow28"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv29()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1811,6 +2244,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
        {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg57" src="{% static 'img/'%}" alt="Погляд зверху на Одеську національну академію харчових технологій">
+         <p>Погляд зверху на Одеську національну академію харчових технологій</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg58" src="{% static 'img/'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Фасад Одеської національної академії харчових технологій</p>
+            </div>
+       </div>
+    <div id="myModal57" class="modal57">
+ <div class="modal_adapt"> <span class="closeimg57">&times;</span>
+     <img class="modal-content" id="img057"></div>
+  <div id="caption57"></div>
+</div>
+    <div id="myModal58" class="modal58">
+ <div class="modal_adapt"> <span class="closeimg58">&times;</span>
+     <img class="modal-content" id="img058"></div>
+  <div id="caption58"></div>
+</div>
         <div class="icons">
             <a class="arrow29"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv30()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1833,6 +2287,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
        {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg59" src="{% static 'img/'%}" alt="Погляд зверху на Одеську національну академію харчових технологій">
+         <p>Погляд зверху на Одеську національну академію харчових технологій</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg60" src="{% static 'img/'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Фасад Одеської національної академії харчових технологій</p>
+            </div>
+       </div>
+    <div id="myModal59" class="modal59">
+ <div class="modal_adapt"> <span class="closeimg59">&times;</span>
+     <img class="modal-content" id="img059"></div>
+  <div id="caption59"></div>
+</div>
+    <div id="myModal60" class="modal60">
+ <div class="modal_adapt"> <span class="closeimg60">&times;</span>
+     <img class="modal-content" id="img060"></div>
+  <div id="caption60"></div>
+</div>
         <div class="icons">
             <a class="arrow30"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv31()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1854,6 +2329,27 @@
         <p>{{ el.text|linebreaks }}</p>
 </div>
       {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg61" src="{% static 'img/'%}" alt="Погляд зверху на Одеську національну академію харчових технологій">
+         <p>Погляд зверху на Одеську національну академію харчових технологій</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg62" src="{% static 'img/'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Фасад Одеської національної академії харчових технологій</p>
+            </div>
+       </div>
+    <div id="myModal61" class="modal61">
+ <div class="modal_adapt"> <span class="closeimg61">&times;</span>
+     <img class="modal-content" id="img061"></div>
+  <div id="caption61"></div>
+</div>
+    <div id="myModal62" class="modal62">
+ <div class="modal_adapt"> <span class="closeimg62">&times;</span>
+     <img class="modal-content" id="img062"></div>
+  <div id="caption62"></div>
+</div>
         <div class="icons">
             <a class="arrow31"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv32()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>
@@ -1877,6 +2373,27 @@
             </article>
         </div>
       {% endfor %}
+    <div class="photos_popup">
+        <div class="photo_text">
+        <img class="photo_popup" id="myImg63" src="{% static 'img/'%}" alt="Погляд зверху на Одеську національну академію харчових технологій">
+         <p>Погляд зверху на Одеську національну академію харчових технологій</p>
+            </div>
+
+       <div class="photo_text">
+        <img class="photo_popup" id="myImg64" src="{% static 'img/'%}" alt="Вивіска Одеської державної академії холоду">
+         <p>Фасад Одеської національної академії харчових технологій</p>
+            </div>
+       </div>
+    <div id="myModal63" class="modal63">
+ <div class="modal_adapt"> <span class="closeimg63">&times;</span>
+     <img class="modal-content" id="img063"></div>
+  <div id="caption63"></div>
+</div>
+    <div id="myModal64" class="modal64">
+ <div class="modal_adapt"> <span class="closeimg64">&times;</span>
+     <img class="modal-content" id="img064"></div>
+  <div id="caption64"></div>
+</div>
         <div class="icons">
             <a class="arrow32"><i class="fas fa-reply" style="font-size: 30px"></i></a>
             <a class="speech" onmousedown="viewDiv1()"><i class="fas fa-volume-up"  style="font-size: 30px"></i></a>

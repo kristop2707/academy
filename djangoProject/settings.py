@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
         '192.168.1.16',
         '195.138.86.105',
         '127.0.0.1',
+        'timeline.ontu.edu.ua',  # domain
         'localhost',
         ]
 

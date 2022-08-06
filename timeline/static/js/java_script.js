@@ -1420,6 +1420,7 @@ let myImg64 = document.querySelector('#myImg64');
 var img64 = document.getElementById("myImg64");
 var modalImg64 = document.getElementById("img064");
 var captionText64 = document.getElementById("caption64");
+
 img64.onclick = function(){
   modal64.style.display = "block";
   modalImg64.src = this.src;

@@ -6424,7 +6424,11 @@ a.open-popup32{
     margin-left: 4%;
     margin-top: -2%;
 }
-
+  #audio{
+    display: none;
+    margin-left: 4%;
+    margin-top: -2%;
+}
 .photo_popup{
     filter: grayscale(0.9);
     transition: filter 0.4s ease-in-out;

@@ -29,7 +29,8 @@ ALLOWED_HOSTS = [
         '192.168.1.16', #local ip
         '195.138.86.105', # global ip
         'timeline.ontu.edu.ua', #domain
-        'localhost', 
+        'localhost',
+    '127.0.0.1'
         ]
 
 

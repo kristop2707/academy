@@ -75,6 +75,7 @@ def index(request):
     wr = Text.objects.filter(id='30')
     wt = Text.objects.filter(id='31')
     wy = Text.objects.filter(id='63')
+    wu = Text.objects.filter(id='64')
     return render(request, "timeline/index.html", {"a": a, "b": b, "c": c, "d": d, "e": e, "f": f, "g": g,
                                                    "h": h, "i": i, "j": j, "k": k, "l": l, "m": m, "n": n,
                                                    "o": o, "p": p, "q": q, "r": r, "s": s, "t": t, "u": u,
@@ -84,7 +85,7 @@ def index(request):
                                                    "qi": qi, "qo": qo, "qp": qp, "qs": qs, "qd": qd, "qf": qf, "qg": qg,
                                                    "qh": qh, "qj": qj, "qk": qk, "ql": ql, "qz": qz, "qx": qx, "qc": qc,
                                                    "qv": qv, "qb": qb, "qn": qn, "qm": qm, "wq": wq, "ww": ww, "we": we,
-                                                   "wr": wr, "wt": wt, "wy":wy})
+                                                   "wr": wr, "wt": wt, "wy": wy, "wu": wu})
 
 
 def en(request):
@@ -154,6 +155,7 @@ def en(request):
     wr = Text.objects.filter(id='30')
     wt = Text.objects.filter(id='50')
     wy = Text.objects.filter(id='62')
+    wu = Text.objects.filter(id='65')
     return render(request, "timeline/en.html", {"a": a, "b": b, "c": c, "d": d, "e": e, "f": f, "g": g,
                                                    "h": h, "i": i, "j": j, "k": k, "l": l, "m": m, "n": n,
                                                    "o": o, "p": p, "q": q, "r": r, "s": s, "t": t, "u": u,
@@ -163,4 +165,4 @@ def en(request):
                                                    "qi": qi, "qo": qo, "qp": qp, "qs": qs, "qd": qd, "qf": qf, "qg": qg,
                                                    "qh": qh, "qj": qj, "qk": qk, "ql": ql, "qz": qz, "qx": qx, "qc": qc,
                                                    "qv": qv, "qb": qb, "qn": qn, "qm": qm, "wq": wq, "ww": ww, "we": we,
-                                                   "wr": wr, "wt": wt, "wy":wy})
+                                                   "wr": wr, "wt": wt, "wy": wy, "wu": wu})

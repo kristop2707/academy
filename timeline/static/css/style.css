@@ -3750,7 +3750,7 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    background: #724f36;
+    background: #4c2a14;
   z-index: 1001;
 }
 
@@ -3815,7 +3815,7 @@ body {
 body::-webkit-scrollbar{
     width: 10px;
     height: 10px;
-    background-color: #3b281c;
+    background-color: #33241e;
 }
 body::-webkit-scrollbar-thumb{
     background: linear-gradient(180deg, #F7C59F 0%, #8d7869 100%);
@@ -3841,11 +3841,11 @@ body::-webkit-scrollbar-thumb{
     color: #fff;
     overflow: hidden;
 
-    background: #724f36;
+    background: #4c2a14;
 
 }
 p::selection, div::selection{
-    background: #724f36;
+    background: #4c2a14;
     color: #ffdbdf;
 }
 .column1{
@@ -3858,7 +3858,7 @@ p::selection, div::selection{
 .rectangle{
     width: 100%;
     height: auto;
-    background-color: #724f36;
+    background-color: #4c2a14;
     position: absolute;
     padding-top: 3.2em;
 }

@@ -26,8 +26,13 @@ body {
     text-align: right;
     margin: auto;
     width: 50%;
-  top: 50%;
+
+}
+@media(max-width: 800px){
+  .modal_adapt{
+    top: 50%;
     position: relative;
+  }
 }
 
 /* Style the Image Used to Trigger the Modal */
@@ -1701,8 +1706,13 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+
+}
+@media (max-width: 800px) {
+  #caption{
+    top: 50%;
     position: relative;
+  }
 }
 #caption2 {
   margin: auto;
@@ -1713,8 +1723,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption2{
+    top: 50%;
     position: relative;
+  }
 }
 #caption3 {
   margin: auto;
@@ -1725,8 +1739,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption3{
+    top: 50%;
     position: relative;
+  }
 }
 #caption4 {
   margin: auto;
@@ -1737,8 +1755,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption4{
+    top: 50%;
     position: relative;
+  }
 }
 #caption5 {
   margin: auto;
@@ -1749,8 +1771,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption5{
+    top: 50%;
     position: relative;
+  }
 }
 #caption6 {
   margin: auto;
@@ -1761,8 +1787,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption6{
+    top: 50%;
     position: relative;
+  }
 }
 #caption7 {
   margin: auto;
@@ -1773,8 +1803,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption7{
+    top: 50%;
     position: relative;
+  }
 }
 #caption8 {
   margin: auto;
@@ -1785,8 +1819,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption8{
+    top: 50%;
     position: relative;
+  }
 }
 #caption9 {
   margin: auto;
@@ -1797,8 +1835,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption9{
+    top: 50%;
     position: relative;
+  }
 }
 #caption10 {
   margin: auto;
@@ -1809,8 +1851,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption10{
+    top: 50%;
     position: relative;
+  }
 }
 #caption11 {
   margin: auto;
@@ -1821,8 +1867,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption11{
+    top: 50%;
     position: relative;
+  }
 }
 #caption12 {
   margin: auto;
@@ -1833,8 +1883,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption12{
+    top: 50%;
     position: relative;
+  }
 }
 #caption13 {
   margin: auto;
@@ -1845,8 +1899,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption13{
+    top: 50%;
     position: relative;
+  }
 }
 #caption14 {
   margin: auto;
@@ -1857,8 +1915,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption14{
+    top: 50%;
     position: relative;
+  }
 }
 #caption15 {
   margin: auto;
@@ -1869,8 +1931,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption15{
+    top: 50%;
     position: relative;
+  }
 }
 #caption16 {
   margin: auto;
@@ -1881,8 +1947,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption16{
+    top: 50%;
     position: relative;
+  }
 }
 #caption17 {
   margin: auto;
@@ -1893,8 +1963,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption17{
+    top: 50%;
     position: relative;
+  }
 }
 #caption18 {
   margin: auto;
@@ -1905,8 +1979,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption18{
+    top: 50%;
     position: relative;
+  }
 }
 #caption19 {
   margin: auto;
@@ -1917,8 +1995,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption19{
+    top: 50%;
     position: relative;
+  }
 }
 #caption20 {
   margin: auto;
@@ -1929,8 +2011,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption20{
+    top: 50%;
     position: relative;
+  }
 }
 #caption21 {
   margin: auto;
@@ -1941,8 +2027,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption21{
+    top: 50%;
     position: relative;
+  }
 }
 #caption22 {
   margin: auto;
@@ -1953,8 +2043,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption22{
+    top: 50%;
     position: relative;
+  }
 }
 #caption23 {
   margin: auto;
@@ -1965,8 +2059,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption23{
+    top: 50%;
     position: relative;
+  }
 }
 #caption24 {
   margin: auto;
@@ -1977,8 +2075,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption24{
+    top: 50%;
     position: relative;
+  }
 }
 #caption25 {
   margin: auto;
@@ -1988,9 +2090,13 @@ body {
   text-align: center;
   color: #ccc;
   padding: 10px 0;
-  top: 50%;
-    position: relative;
   height: 150px;
+}
+@media (max-width: 800px) {
+  #caption25{
+    top: 50%;
+    position: relative;
+  }
 }
 #caption26 {
   margin: auto;
@@ -2001,8 +2107,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption26{
+    top: 50%;
     position: relative;
+  }
 }
 #caption27 {
   margin: auto;
@@ -2013,8 +2123,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption27{
+    top: 50%;
     position: relative;
+  }
 }
 #caption28 {
   margin: auto;
@@ -2025,8 +2139,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption28{
+    top: 50%;
     position: relative;
+  }
 }
 #caption29 {
   margin: auto;
@@ -2036,9 +2154,13 @@ body {
   text-align: center;
   color: #ccc;
   padding: 10px 0;
-  top: 50%;
-    position: relative;
   height: 150px;
+}
+@media (max-width: 800px) {
+  #caption29{
+    top: 50%;
+    position: relative;
+  }
 }
 #caption30 {
   margin: auto;
@@ -2049,8 +2171,11 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}@media (max-width: 800px) {
+  #caption30{
+    top: 50%;
     position: relative;
+  }
 }
 #caption31 {
   margin: auto;
@@ -2061,8 +2186,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption31{
+    top: 50%;
     position: relative;
+  }
 }
 #caption32 {
   margin: auto;
@@ -2073,8 +2202,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption32{
+    top: 50%;
     position: relative;
+  }
 }
 #caption33 {
   margin: auto;
@@ -2085,8 +2218,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption33{
+    top: 50%;
     position: relative;
+  }
 }
 #caption34 {
   margin: auto;
@@ -2097,8 +2234,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption34{
+    top: 50%;
     position: relative;
+  }
 }
 #caption35 {
   margin: auto;
@@ -2109,8 +2250,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption35{
+    top: 50%;
     position: relative;
+  }
 }
 #caption36 {
   margin: auto;
@@ -2121,8 +2266,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption36{
+    top: 50%;
     position: relative;
+  }
 }
 #caption37 {
   margin: auto;
@@ -2133,8 +2282,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption37{
+    top: 50%;
     position: relative;
+  }
 }
 #caption38 {
   margin: auto;
@@ -2145,8 +2298,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption38{
+    top: 50%;
     position: relative;
+  }
 }
 #caption39 {
   margin: auto;
@@ -2157,8 +2314,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption39{
+    top: 50%;
     position: relative;
+  }
 }
 #caption40 {
   margin: auto;
@@ -2169,8 +2330,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption40{
+    top: 50%;
     position: relative;
+  }
 }
 #caption41 {
   margin: auto;
@@ -2181,8 +2346,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption41{
+    top: 50%;
     position: relative;
+  }
 }
 #caption42 {
   margin: auto;
@@ -2193,8 +2362,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption42{
+    top: 50%;
     position: relative;
+  }
 }
 #caption43 {
   margin: auto;
@@ -2205,8 +2378,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption43{
+    top: 50%;
     position: relative;
+  }
 }
 #caption44 {
   margin: auto;
@@ -2217,8 +2394,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption44{
+    top: 50%;
     position: relative;
+  }
 }
 #caption45 {
   margin: auto;
@@ -2229,8 +2410,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption45{
+    top: 50%;
     position: relative;
+  }
 }
 #caption46 {
   margin: auto;
@@ -2241,8 +2426,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption46{
+    top: 50%;
     position: relative;
+  }
 }
 #caption47 {
   margin: auto;
@@ -2253,8 +2442,11 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}@media (max-width: 800px) {
+  #caption47{
+    top: 50%;
     position: relative;
+  }
 }
 #caption48 {
   margin: auto;
@@ -2265,8 +2457,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption48{
+    top: 50%;
     position: relative;
+  }
 }
 #caption49 {
   margin: auto;
@@ -2277,8 +2473,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption49{
+    top: 50%;
     position: relative;
+  }
 }
 #caption50 {
   margin: auto;
@@ -2289,8 +2489,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption50{
+    top: 50%;
     position: relative;
+  }
 }
 #caption51 {
   margin: auto;
@@ -2301,8 +2505,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption51{
+    top: 50%;
     position: relative;
+  }
 }
 #caption52 {
   margin: auto;
@@ -2313,9 +2521,14 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption52{
+    top: 50%;
     position: relative;
-}#caption53 {
+  }
+}
+#caption53 {
   margin: auto;
   display: block;
   width: 80%;
@@ -2324,8 +2537,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption53{
+    top: 50%;
     position: relative;
+  }
 }
  #caption54 {
   margin: auto;
@@ -2336,9 +2553,14 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-   top: 50%;
+}
+@media (max-width: 800px) {
+  #caption54{
+    top: 50%;
     position: relative;
-}#caption55 {
+  }
+}
+#caption55 {
   margin: auto;
   display: block;
   width: 80%;
@@ -2347,8 +2569,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption55{
+    top: 50%;
     position: relative;
+  }
 }
  #caption56 {
   margin: auto;
@@ -2359,8 +2585,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-   top: 50%;
+}
+ @media (max-width: 800px) {
+  #caption56{
+    top: 50%;
     position: relative;
+  }
 }
  #caption57 {
   margin: auto;
@@ -2371,9 +2601,14 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-   top: 50%;
+}
+@media (max-width: 800px) {
+  #caption57{
+    top: 50%;
     position: relative;
-}#caption58 {
+  }
+}
+#caption58 {
   margin: auto;
   display: block;
   width: 80%;
@@ -2382,9 +2617,14 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption58{
+    top: 50%;
     position: relative;
-}#caption59 {
+  }
+}
+#caption59 {
   margin: auto;
   display: block;
   width: 80%;
@@ -2393,8 +2633,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption59{
+    top: 50%;
     position: relative;
+  }
 }
  #caption60 {
   margin: auto;
@@ -2405,8 +2649,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-   top: 50%;
+}
+ @media (max-width: 800px) {
+  #caption60{
+    top: 50%;
     position: relative;
+  }
 }
  #caption61 {
   margin: auto;
@@ -2417,8 +2665,12 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-   top: 50%;
+}
+ @media (max-width: 800px) {
+  #caption61{
+    top: 50%;
     position: relative;
+  }
 }
  #caption62 {
   margin: auto;
@@ -2429,9 +2681,14 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-   top: 50%;
+}
+@media (max-width: 800px) {
+  #caption62{
+    top: 50%;
     position: relative;
-}#caption63 {
+  }
+}
+#caption63 {
   margin: auto;
   display: block;
   width: 80%;
@@ -2440,9 +2697,14 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
+}
+@media (max-width: 800px) {
+  #caption63{
+    top: 50%;
     position: relative;
-}#caption64 {
+  }
+}
+#caption64 {
   margin: auto;
   display: block;
   width: 80%;
@@ -2451,10 +2713,16 @@ body {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  top: 50%;
-    position: relative;
+
 }
 
+@media (max-width: 800px) {
+  #caption64{
+     top: 50%;
+    position: relative;
+  }
+
+}
 
 
 
